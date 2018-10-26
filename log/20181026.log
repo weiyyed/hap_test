@@ -1,0 +1,4237 @@
+2018-10-26 13:58:52,141 [INFO] autotest.py line:93: Testsuite imported from Excel:
+[
+    {
+        "id": "passport_001",
+        "title": "登录",
+        "condition": "BASE",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "H",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "data": "标签页名=portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "_data": "标签页名=portal",
+                "vdata": "标签页名=portal",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "登录页",
+                "element": "用户名",
+                "data": "w",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "用户名",
+                "_data": "w",
+                "vdata": "w",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "输入",
+                "page": "",
+                "element": "密码",
+                "data": "1",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "密码",
+                "_data": "1",
+                "vdata": "1",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "立即登录",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "立即登录",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "portal_001",
+        "title": "跳转到首页",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "首页",
+                "element": "logo",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "logo",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "sy_002",
+        "title": "员工新增",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#系统管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#系统管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#员工管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#员工管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#添加",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#添加",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "选择输入框#组织名称",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "选择输入框#组织名称",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "双击",
+                "page": "",
+                "element": "弹出选择项#1",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "双击",
+                "_element": "弹出选择项#1",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "6",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#员工编码",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#员工编码",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "7",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_普通编码>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_普通编码>",
+                "vdata": "<_普通编码>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "8",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#姓名",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#姓名",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "9",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "自动测试",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "自动测试",
+                "vdata": "自动测试",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "10",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#人员手机号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#人员手机号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "11",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_人员手机号>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_人员手机号>",
+                "vdata": "<_人员手机号>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "12",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#保存",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#保存",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "13",
+                "keyword": "检查",
+                "page": "",
+                "element": "提示#保存成功",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "提示#保存成功",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2018-10-26 13:58:52,453 [INFO] autotest.py line:94: From Excel import testsuite success
+2018-10-26 13:58:55,224 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 13:58:55,227 [INFO] testcase.py line:73: Run the Step: 1|OPEN|url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 13:58:56,237 [INFO] testcase.py line:148: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Pass
+2018-10-26 13:58:56,446 [INFO] testcase.py line:73: Run the Step: 2|INPUT|用户名
+2018-10-26 13:58:57,114 [INFO] testcase.py line:148: Run the Step: 2|INPUT|登录页-用户名 is Pass
+2018-10-26 13:58:57,316 [INFO] testcase.py line:73: Run the Step: 3|INPUT|密码
+2018-10-26 13:58:57,911 [INFO] testcase.py line:148: Run the Step: 3|INPUT|登录页-密码 is Pass
+2018-10-26 13:58:58,113 [INFO] testcase.py line:73: Run the Step: 4|CLICK|立即登录
+2018-10-26 13:58:58,714 [INFO] testcase.py line:148: Run the Step: 4|CLICK|登录页-立即登录 is Pass
+2018-10-26 13:58:58,915 [INFO] testcase.py line:73: Run the Step: 5|CHECK|页面url
+2018-10-26 13:58:58,916 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 13:58:59,320 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/'
+2018-10-26 13:58:59,323 [INFO] testcase.py line:148: Run the Step: 5|CHECK|通用-页面url is Pass
+2018-10-26 13:58:59,524 [INFO] testsuite.py line:98: Run the testcase: portal_001|跳转到首页 Skipped, because the flag=N or the condition=snippet
+2018-10-26 13:58:59,527 [INFO] testsuite.py line:28: Start running the SETUP testcase...
+2018-10-26 13:58:59,527 [INFO] testcase.py line:56: Run the TestCase: portal_001|跳转到首页
+2018-10-26 13:58:59,534 [INFO] testcase.py line:73: Run the Step: 1|CLICK|logo
+2018-10-26 13:59:00,791 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-logo is Pass
+2018-10-26 13:59:01,014 [INFO] testcase.py line:73: Run the Step: 2|CHECK|页面url
+2018-10-26 13:59:01,016 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 13:59:01,020 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/w0622'
+2018-10-26 13:59:01,022 [INFO] testcase.py line:148: Run the Step: 2|CHECK|通用-页面url is Pass
+2018-10-26 13:59:01,223 [INFO] testcase.py line:56: Run the TestCase: sy_002|员工新增
+2018-10-26 13:59:01,225 [INFO] testcase.py line:73: Run the Step: 1|CLICK|菜单#系统管理
+2018-10-26 13:59:01,874 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-菜单#系统管理 is Pass
+2018-10-26 13:59:02,079 [INFO] testcase.py line:73: Run the Step: 2|CLICK|菜单#员工管理
+2018-10-26 13:59:03,980 [INFO] testcase.py line:148: Run the Step: 2|CLICK|通用-菜单#员工管理 is Pass
+2018-10-26 13:59:04,215 [INFO] testcase.py line:73: Run the Step: 3|CLICK|按钮#添加
+2018-10-26 13:59:05,675 [INFO] testcase.py line:148: Run the Step: 3|CLICK|通用-按钮#添加 is Pass
+2018-10-26 13:59:05,909 [INFO] testcase.py line:73: Run the Step: 4|CLICK|选择输入框#组织名称
+2018-10-26 13:59:06,435 [ERROR] testcase.py line:178: Run the Step: 4|CLICK|通用-选择输入框#组织名称 is Failure
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\keywords\web.py", line 162, in click
+    element_location.click()
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webelement.py", line 501, in _execute
+    return self._parent.execute(command, params)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <div></div> is not clickable at point (576, 126). Other element would receive the click: <div class=" container">...</div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 14:30:54,122 [INFO] autotest.py line:93: Testsuite imported from Excel:
+[
+    {
+        "id": "passport_001",
+        "title": "登录",
+        "condition": "BASE",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "H",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "data": "标签页名=portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "_data": "标签页名=portal",
+                "vdata": "标签页名=portal",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "登录页",
+                "element": "用户名",
+                "data": "w",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "用户名",
+                "_data": "w",
+                "vdata": "w",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "输入",
+                "page": "",
+                "element": "密码",
+                "data": "1",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "密码",
+                "_data": "1",
+                "vdata": "1",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "立即登录",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "立即登录",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "portal_001",
+        "title": "跳转到首页",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "首页",
+                "element": "logo",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "logo",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "sy_002",
+        "title": "员工新增",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#系统管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#系统管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#员工管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#员工管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#添加",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#添加",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "选择输入框#组织名称",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "选择输入框#组织名称",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "双击",
+                "page": "",
+                "element": "弹出选择项#1",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "双击",
+                "_element": "弹出选择项#1",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "6",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#员工编码",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#员工编码",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "7",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_普通编码>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_普通编码>",
+                "vdata": "<_普通编码>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "8",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#姓名",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#姓名",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "9",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "自动测试",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "自动测试",
+                "vdata": "自动测试",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "10",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#人员手机号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#人员手机号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "11",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_人员手机号>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_人员手机号>",
+                "vdata": "<_人员手机号>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "12",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#保存",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#保存",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "13",
+                "keyword": "检查",
+                "page": "",
+                "element": "提示#保存成功",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "提示#保存成功",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2018-10-26 14:30:54,125 [INFO] autotest.py line:94: From Excel import testsuite success
+2018-10-26 14:30:56,853 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 14:30:56,855 [INFO] testcase.py line:73: Run the Step: 1|OPEN|url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 14:30:57,865 [INFO] testcase.py line:148: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Pass
+2018-10-26 14:30:58,067 [INFO] testcase.py line:73: Run the Step: 2|INPUT|用户名
+2018-10-26 14:31:01,662 [INFO] testcase.py line:148: Run the Step: 2|INPUT|登录页-用户名 is Pass
+2018-10-26 14:31:01,865 [INFO] testcase.py line:73: Run the Step: 3|INPUT|密码
+2018-10-26 14:31:05,533 [INFO] testcase.py line:148: Run the Step: 3|INPUT|登录页-密码 is Pass
+2018-10-26 14:31:05,736 [INFO] testcase.py line:73: Run the Step: 4|CLICK|立即登录
+2018-10-26 14:31:07,402 [INFO] testcase.py line:148: Run the Step: 4|CLICK|登录页-立即登录 is Pass
+2018-10-26 14:31:07,604 [INFO] testcase.py line:73: Run the Step: 5|CHECK|页面url
+2018-10-26 14:31:07,607 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 14:31:08,052 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/'
+2018-10-26 14:31:08,066 [INFO] testcase.py line:148: Run the Step: 5|CHECK|通用-页面url is Pass
+2018-10-26 14:31:08,268 [INFO] testsuite.py line:98: Run the testcase: portal_001|跳转到首页 Skipped, because the flag=N or the condition=snippet
+2018-10-26 14:31:08,271 [INFO] testsuite.py line:28: Start running the SETUP testcase...
+2018-10-26 14:31:08,277 [INFO] testcase.py line:56: Run the TestCase: portal_001|跳转到首页
+2018-10-26 14:31:08,280 [INFO] testcase.py line:73: Run the Step: 1|CLICK|logo
+2018-10-26 14:31:10,457 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-logo is Pass
+2018-10-26 14:31:10,658 [INFO] testcase.py line:73: Run the Step: 2|CHECK|页面url
+2018-10-26 14:31:10,661 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 14:31:10,673 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/w0622'
+2018-10-26 14:31:10,683 [INFO] testcase.py line:148: Run the Step: 2|CHECK|通用-页面url is Pass
+2018-10-26 14:31:10,887 [INFO] testcase.py line:56: Run the TestCase: sy_002|员工新增
+2018-10-26 14:31:10,890 [INFO] testcase.py line:73: Run the Step: 1|CLICK|菜单#系统管理
+2018-10-26 14:31:12,900 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-菜单#系统管理 is Pass
+2018-10-26 14:31:13,101 [INFO] testcase.py line:73: Run the Step: 2|CLICK|菜单#员工管理
+2018-10-26 14:31:15,947 [INFO] testcase.py line:148: Run the Step: 2|CLICK|通用-菜单#员工管理 is Pass
+2018-10-26 14:31:16,148 [INFO] testcase.py line:73: Run the Step: 3|CLICK|按钮#添加
+2018-10-26 14:31:18,387 [INFO] testcase.py line:148: Run the Step: 3|CLICK|通用-按钮#添加 is Pass
+2018-10-26 14:31:18,590 [INFO] testcase.py line:73: Run the Step: 4|CLICK|选择输入框#组织名称
+2018-10-26 14:31:26,283 [INFO] testcase.py line:148: Run the Step: 4|CLICK|通用-选择输入框#组织名称 is Pass
+2018-10-26 14:31:26,486 [INFO] testcase.py line:73: Run the Step: 5|DOUBLE_CLICK|弹出选择项#1
+2018-10-26 14:31:27,110 [INFO] testcase.py line:148: Run the Step: 5|DOUBLE_CLICK|通用-弹出选择项#1 is Pass
+2018-10-26 14:31:27,313 [INFO] testcase.py line:73: Run the Step: 6|CLICK|文本框#员工编码
+2018-10-26 14:31:36,423 [ERROR] testcase.py line:178: Run the Step: 6|CLICK|通用-文本框#员工编码 is Failure
+Traceback (most recent call last):
+  File "E:/py_workspaces/sweetest/sweetest-master/sweetest\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:/py_workspaces/sweetest/sweetest-master/sweetest\sweetest\keywords\web.py", line 160, in click
+    element_location = locating_element(element, 'CLICK')
+  File "E:/py_workspaces/sweetest/sweetest-master/sweetest\sweetest\locator.py", line 26, in locating_element
+    (getattr(By, el['by'].upper()), value)))
+  File "E:\py_workspaces\sweetest\sweetest-master\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2018-10-26 14:32:27,019 [INFO] autotest.py line:93: Testsuite imported from Excel:
+[
+    {
+        "id": "passport_001",
+        "title": "登录",
+        "condition": "BASE",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "H",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "data": "标签页名=portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "_data": "标签页名=portal",
+                "vdata": "标签页名=portal",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "登录页",
+                "element": "用户名",
+                "data": "w",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "用户名",
+                "_data": "w",
+                "vdata": "w",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "输入",
+                "page": "",
+                "element": "密码",
+                "data": "1",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "密码",
+                "_data": "1",
+                "vdata": "1",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "立即登录",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "立即登录",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "portal_001",
+        "title": "跳转到首页",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "首页",
+                "element": "logo",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "logo",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "sy_002",
+        "title": "员工新增",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#系统管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#系统管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#员工管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#员工管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#添加",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#添加",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "选择输入框#组织名称",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "选择输入框#组织名称",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "双击",
+                "page": "",
+                "element": "弹出选择项#1",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "双击",
+                "_element": "弹出选择项#1",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "6",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#员工编码",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#员工编码",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "7",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_普通编码>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_普通编码>",
+                "vdata": "<_普通编码>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "8",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#姓名",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#姓名",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "9",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "自动测试",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "自动测试",
+                "vdata": "自动测试",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "10",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#人员手机号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#人员手机号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "11",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_人员手机号>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_人员手机号>",
+                "vdata": "<_人员手机号>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "12",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#保存",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#保存",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "13",
+                "keyword": "检查",
+                "page": "",
+                "element": "提示#保存成功",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "提示#保存成功",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2018-10-26 14:32:27,129 [INFO] autotest.py line:94: From Excel import testsuite success
+2018-10-26 14:32:29,634 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 14:32:29,636 [INFO] testcase.py line:73: Run the Step: 1|OPEN|url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 14:32:30,624 [INFO] testcase.py line:148: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Pass
+2018-10-26 14:32:30,830 [INFO] testcase.py line:73: Run the Step: 2|INPUT|用户名
+2018-10-26 14:32:31,441 [INFO] testcase.py line:148: Run the Step: 2|INPUT|登录页-用户名 is Pass
+2018-10-26 14:32:31,643 [INFO] testcase.py line:73: Run the Step: 3|INPUT|密码
+2018-10-26 14:32:32,267 [INFO] testcase.py line:148: Run the Step: 3|INPUT|登录页-密码 is Pass
+2018-10-26 14:32:32,469 [INFO] testcase.py line:73: Run the Step: 4|CLICK|立即登录
+2018-10-26 14:32:33,091 [INFO] testcase.py line:148: Run the Step: 4|CLICK|登录页-立即登录 is Pass
+2018-10-26 14:32:33,292 [INFO] testcase.py line:73: Run the Step: 5|CHECK|页面url
+2018-10-26 14:32:33,293 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 14:32:33,607 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/'
+2018-10-26 14:32:33,612 [INFO] testcase.py line:148: Run the Step: 5|CHECK|通用-页面url is Pass
+2018-10-26 14:32:33,814 [INFO] testsuite.py line:98: Run the testcase: portal_001|跳转到首页 Skipped, because the flag=N or the condition=snippet
+2018-10-26 14:32:33,816 [INFO] testsuite.py line:28: Start running the SETUP testcase...
+2018-10-26 14:32:33,816 [INFO] testcase.py line:56: Run the TestCase: portal_001|跳转到首页
+2018-10-26 14:32:33,817 [INFO] testcase.py line:73: Run the Step: 1|CLICK|logo
+2018-10-26 14:32:34,843 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-logo is Pass
+2018-10-26 14:32:35,045 [INFO] testcase.py line:73: Run the Step: 2|CHECK|页面url
+2018-10-26 14:32:35,046 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 14:32:35,050 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/w0622'
+2018-10-26 14:32:35,053 [INFO] testcase.py line:148: Run the Step: 2|CHECK|通用-页面url is Pass
+2018-10-26 14:32:35,254 [INFO] testcase.py line:56: Run the TestCase: sy_002|员工新增
+2018-10-26 14:32:35,255 [INFO] testcase.py line:73: Run the Step: 1|CLICK|菜单#系统管理
+2018-10-26 14:32:35,877 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-菜单#系统管理 is Pass
+2018-10-26 14:32:36,081 [INFO] testcase.py line:73: Run the Step: 2|CLICK|菜单#员工管理
+2018-10-26 14:32:37,607 [INFO] testcase.py line:148: Run the Step: 2|CLICK|通用-菜单#员工管理 is Pass
+2018-10-26 14:32:37,810 [INFO] testcase.py line:73: Run the Step: 3|CLICK|按钮#添加
+2018-10-26 14:32:38,430 [INFO] testcase.py line:148: Run the Step: 3|CLICK|通用-按钮#添加 is Pass
+2018-10-26 14:32:38,632 [INFO] testcase.py line:73: Run the Step: 4|CLICK|选择输入框#组织名称
+2018-10-26 14:32:39,267 [INFO] testcase.py line:148: Run the Step: 4|CLICK|通用-选择输入框#组织名称 is Pass
+2018-10-26 14:32:39,472 [INFO] testcase.py line:73: Run the Step: 5|DOUBLE_CLICK|弹出选择项#1
+2018-10-26 14:32:40,063 [INFO] testcase.py line:148: Run the Step: 5|DOUBLE_CLICK|通用-弹出选择项#1 is Pass
+2018-10-26 14:32:40,267 [INFO] testcase.py line:73: Run the Step: 6|CLICK|文本框#员工编码
+2018-10-26 14:32:47,186 [ERROR] testcase.py line:178: Run the Step: 6|CLICK|通用-文本框#员工编码 is Failure
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\keywords\web.py", line 160, in click
+    element_location = locating_element(element, 'CLICK')
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\locator.py", line 26, in locating_element
+    (getattr(By, el['by'].upper()), value)))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2018-10-26 14:45:16,621 [INFO] autotest.py line:93: Testsuite imported from Excel:
+[
+    {
+        "id": "passport_001",
+        "title": "登录",
+        "condition": "BASE",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "H",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "data": "标签页名=portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "_data": "标签页名=portal",
+                "vdata": "标签页名=portal",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "登录页",
+                "element": "用户名",
+                "data": "w",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "用户名",
+                "_data": "w",
+                "vdata": "w",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "输入",
+                "page": "",
+                "element": "密码",
+                "data": "1",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "密码",
+                "_data": "1",
+                "vdata": "1",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "立即登录",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "立即登录",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "portal_001",
+        "title": "跳转到首页",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "首页",
+                "element": "logo",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "logo",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "sy_002",
+        "title": "员工新增",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#系统管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#系统管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#员工管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#员工管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#添加",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#添加",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "选择输入框#组织名称",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "选择输入框#组织名称",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "双击",
+                "page": "",
+                "element": "弹出选择项#1",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "双击",
+                "_element": "弹出选择项#1",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "6",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#员工编号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#员工编号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "7",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_普通编码>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_普通编码>",
+                "vdata": "<_普通编码>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "8",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#姓名",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#姓名",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "9",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "自动测试",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "自动测试",
+                "vdata": "自动测试",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "10",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#人员手机号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#人员手机号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "11",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_人员手机号>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_人员手机号>",
+                "vdata": "<_人员手机号>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "12",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#保存",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#保存",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "13",
+                "keyword": "检查",
+                "page": "",
+                "element": "提示#保存成功",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "提示#保存成功",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2018-10-26 14:45:16,738 [INFO] autotest.py line:94: From Excel import testsuite success
+2018-10-26 14:45:19,240 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 14:45:19,242 [INFO] testcase.py line:73: Run the Step: 1|OPEN|url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 14:45:20,223 [INFO] testcase.py line:148: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Pass
+2018-10-26 14:45:20,425 [INFO] testcase.py line:73: Run the Step: 2|INPUT|用户名
+2018-10-26 14:45:21,026 [INFO] testcase.py line:148: Run the Step: 2|INPUT|登录页-用户名 is Pass
+2018-10-26 14:45:21,228 [INFO] testcase.py line:73: Run the Step: 3|INPUT|密码
+2018-10-26 14:45:21,817 [INFO] testcase.py line:148: Run the Step: 3|INPUT|登录页-密码 is Pass
+2018-10-26 14:45:22,019 [INFO] testcase.py line:73: Run the Step: 4|CLICK|立即登录
+2018-10-26 14:45:22,621 [INFO] testcase.py line:148: Run the Step: 4|CLICK|登录页-立即登录 is Pass
+2018-10-26 14:45:22,823 [INFO] testcase.py line:73: Run the Step: 5|CHECK|页面url
+2018-10-26 14:45:22,824 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 14:45:23,650 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/'
+2018-10-26 14:45:23,705 [INFO] testcase.py line:148: Run the Step: 5|CHECK|通用-页面url is Pass
+2018-10-26 14:45:23,907 [INFO] testsuite.py line:98: Run the testcase: portal_001|跳转到首页 Skipped, because the flag=N or the condition=snippet
+2018-10-26 14:45:23,912 [INFO] testsuite.py line:28: Start running the SETUP testcase...
+2018-10-26 14:45:23,913 [INFO] testcase.py line:56: Run the TestCase: portal_001|跳转到首页
+2018-10-26 14:45:23,915 [INFO] testcase.py line:73: Run the Step: 1|CLICK|logo
+2018-10-26 14:45:25,111 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-logo is Pass
+2018-10-26 14:45:25,313 [INFO] testcase.py line:73: Run the Step: 2|CHECK|页面url
+2018-10-26 14:45:25,314 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 14:45:25,318 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/w0622'
+2018-10-26 14:45:25,324 [INFO] testcase.py line:148: Run the Step: 2|CHECK|通用-页面url is Pass
+2018-10-26 14:45:25,525 [INFO] testcase.py line:56: Run the TestCase: sy_002|员工新增
+2018-10-26 14:45:25,526 [INFO] testcase.py line:73: Run the Step: 1|CLICK|菜单#系统管理
+2018-10-26 14:45:26,139 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-菜单#系统管理 is Pass
+2018-10-26 14:45:26,343 [INFO] testcase.py line:73: Run the Step: 2|CLICK|菜单#员工管理
+2018-10-26 14:45:27,888 [INFO] testcase.py line:148: Run the Step: 2|CLICK|通用-菜单#员工管理 is Pass
+2018-10-26 14:45:28,090 [INFO] testcase.py line:73: Run the Step: 3|CLICK|按钮#添加
+2018-10-26 14:45:28,716 [INFO] testcase.py line:148: Run the Step: 3|CLICK|通用-按钮#添加 is Pass
+2018-10-26 14:45:28,918 [INFO] testcase.py line:73: Run the Step: 4|CLICK|选择输入框#组织名称
+2018-10-26 14:45:29,563 [INFO] testcase.py line:148: Run the Step: 4|CLICK|通用-选择输入框#组织名称 is Pass
+2018-10-26 14:45:29,768 [INFO] testcase.py line:73: Run the Step: 5|DOUBLE_CLICK|弹出选择项#1
+2018-10-26 14:45:30,348 [INFO] testcase.py line:148: Run the Step: 5|DOUBLE_CLICK|通用-弹出选择项#1 is Pass
+2018-10-26 14:45:30,552 [INFO] testcase.py line:73: Run the Step: 6|CLICK|文本框#员工编号
+2018-10-26 14:45:31,191 [INFO] testcase.py line:148: Run the Step: 6|CLICK|通用-文本框#员工编号 is Pass
+2018-10-26 14:45:31,396 [INFO] testcase.py line:73: Run the Step: 7|INPUT|文本输入
+2018-10-26 14:45:32,023 [INFO] testcase.py line:148: Run the Step: 7|INPUT|通用-文本输入 is Pass
+2018-10-26 14:45:32,225 [INFO] testcase.py line:73: Run the Step: 8|CLICK|文本框#姓名
+2018-10-26 14:45:32,841 [INFO] testcase.py line:148: Run the Step: 8|CLICK|通用-文本框#姓名 is Pass
+2018-10-26 14:45:33,044 [INFO] testcase.py line:73: Run the Step: 9|INPUT|文本输入
+2018-10-26 14:45:33,595 [INFO] testcase.py line:148: Run the Step: 9|INPUT|通用-文本输入 is Pass
+2018-10-26 14:45:33,797 [INFO] testcase.py line:73: Run the Step: 10|CLICK|文本框#人员手机号
+2018-10-26 14:45:34,417 [INFO] testcase.py line:148: Run the Step: 10|CLICK|通用-文本框#人员手机号 is Pass
+2018-10-26 14:45:34,619 [INFO] testcase.py line:73: Run the Step: 11|INPUT|文本输入
+2018-10-26 14:45:35,213 [INFO] testcase.py line:148: Run the Step: 11|INPUT|通用-文本输入 is Pass
+2018-10-26 14:45:35,415 [INFO] testcase.py line:73: Run the Step: 12|CLICK|按钮#保存
+2018-10-26 14:45:36,041 [INFO] testcase.py line:148: Run the Step: 12|CLICK|通用-按钮#保存 is Pass
+2018-10-26 14:45:36,243 [INFO] testcase.py line:73: Run the Step: 13|CHECK|提示#保存成功
+2018-10-26 14:45:43,132 [ERROR] testcase.py line:178: Run the Step: 13|CHECK|通用-提示#保存成功 is Failure
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\keywords\web.py", line 68, in check
+    element_location = locating_element(element)
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\locator.py", line 29, in locating_element
+    (getattr(By, el['by'].upper()), value)))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2018-10-26 15:01:39,162 [INFO] autotest.py line:93: Testsuite imported from Excel:
+[
+    {
+        "id": "passport_001",
+        "title": "登录",
+        "condition": "BASE",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "H",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "data": "标签页名=portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "_data": "标签页名=portal",
+                "vdata": "标签页名=portal",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "登录页",
+                "element": "用户名",
+                "data": "w",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "用户名",
+                "_data": "w",
+                "vdata": "w",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "输入",
+                "page": "",
+                "element": "密码",
+                "data": "1",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "密码",
+                "_data": "1",
+                "vdata": "1",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "立即登录",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "立即登录",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "portal_001",
+        "title": "跳转到首页",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "首页",
+                "element": "logo",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "logo",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "sy_002",
+        "title": "员工新增",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#系统管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#系统管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#员工管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#员工管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#添加",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#添加",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "选择输入框#组织名称",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "选择输入框#组织名称",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "双击",
+                "page": "",
+                "element": "弹出选择项#1",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "双击",
+                "_element": "弹出选择项#1",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "6",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#员工编号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#员工编号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "7",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_普通编码>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_普通编码>",
+                "vdata": "<_普通编码>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "8",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#姓名",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#姓名",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "9",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "自动测试",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "自动测试",
+                "vdata": "自动测试",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "10",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#人员手机号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#人员手机号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "11",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_人员手机号>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_人员手机号>",
+                "vdata": "<_人员手机号>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "12",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#保存",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#保存",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "13",
+                "keyword": "检查",
+                "page": "",
+                "element": "提示#保存成功",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "提示#保存成功",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2018-10-26 15:01:39,276 [INFO] autotest.py line:94: From Excel import testsuite success
+2018-10-26 15:01:41,835 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 15:01:41,837 [INFO] testcase.py line:73: Run the Step: 1|OPEN|url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 15:01:42,821 [INFO] testcase.py line:148: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Pass
+2018-10-26 15:01:43,026 [INFO] testcase.py line:73: Run the Step: 2|INPUT|用户名
+2018-10-26 15:01:43,645 [INFO] testcase.py line:148: Run the Step: 2|INPUT|登录页-用户名 is Pass
+2018-10-26 15:01:43,847 [INFO] testcase.py line:73: Run the Step: 3|INPUT|密码
+2018-10-26 15:01:44,462 [INFO] testcase.py line:148: Run the Step: 3|INPUT|登录页-密码 is Pass
+2018-10-26 15:01:44,664 [INFO] testcase.py line:73: Run the Step: 4|CLICK|立即登录
+2018-10-26 15:01:45,269 [INFO] testcase.py line:148: Run the Step: 4|CLICK|登录页-立即登录 is Pass
+2018-10-26 15:01:45,470 [INFO] testcase.py line:73: Run the Step: 5|CHECK|页面url
+2018-10-26 15:01:45,471 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 15:01:45,886 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/'
+2018-10-26 15:01:45,890 [INFO] testcase.py line:148: Run the Step: 5|CHECK|通用-页面url is Pass
+2018-10-26 15:01:46,091 [INFO] testsuite.py line:98: Run the testcase: portal_001|跳转到首页 Skipped, because the flag=N or the condition=snippet
+2018-10-26 15:01:46,093 [INFO] testsuite.py line:28: Start running the SETUP testcase...
+2018-10-26 15:01:46,094 [INFO] testcase.py line:56: Run the TestCase: portal_001|跳转到首页
+2018-10-26 15:01:46,095 [INFO] testcase.py line:73: Run the Step: 1|CLICK|logo
+2018-10-26 15:01:47,074 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-logo is Pass
+2018-10-26 15:01:47,276 [INFO] testcase.py line:73: Run the Step: 2|CHECK|页面url
+2018-10-26 15:01:47,277 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 15:01:47,284 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/w0622'
+2018-10-26 15:01:47,287 [INFO] testcase.py line:148: Run the Step: 2|CHECK|通用-页面url is Pass
+2018-10-26 15:01:47,488 [INFO] testcase.py line:56: Run the TestCase: sy_002|员工新增
+2018-10-26 15:01:47,489 [INFO] testcase.py line:73: Run the Step: 1|CLICK|菜单#系统管理
+2018-10-26 15:01:48,147 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-菜单#系统管理 is Pass
+2018-10-26 15:01:48,351 [INFO] testcase.py line:73: Run the Step: 2|CLICK|菜单#员工管理
+2018-10-26 15:01:49,882 [INFO] testcase.py line:148: Run the Step: 2|CLICK|通用-菜单#员工管理 is Pass
+2018-10-26 15:01:50,084 [INFO] testcase.py line:73: Run the Step: 3|CLICK|按钮#添加
+2018-10-26 15:01:50,723 [INFO] testcase.py line:148: Run the Step: 3|CLICK|通用-按钮#添加 is Pass
+2018-10-26 15:01:50,926 [INFO] testcase.py line:73: Run the Step: 4|CLICK|选择输入框#组织名称
+2018-10-26 15:01:51,597 [INFO] testcase.py line:148: Run the Step: 4|CLICK|通用-选择输入框#组织名称 is Pass
+2018-10-26 15:01:51,802 [INFO] testcase.py line:73: Run the Step: 5|DOUBLE_CLICK|弹出选择项#1
+2018-10-26 15:01:52,374 [INFO] testcase.py line:148: Run the Step: 5|DOUBLE_CLICK|通用-弹出选择项#1 is Pass
+2018-10-26 15:01:52,578 [INFO] testcase.py line:73: Run the Step: 6|CLICK|文本框#员工编号
+2018-10-26 15:01:53,185 [INFO] testcase.py line:148: Run the Step: 6|CLICK|通用-文本框#员工编号 is Pass
+2018-10-26 15:01:53,389 [INFO] testcase.py line:73: Run the Step: 7|INPUT|文本输入
+2018-10-26 15:01:54,025 [INFO] testcase.py line:148: Run the Step: 7|INPUT|通用-文本输入 is Pass
+2018-10-26 15:01:54,226 [INFO] testcase.py line:73: Run the Step: 8|CLICK|文本框#姓名
+2018-10-26 15:01:54,837 [INFO] testcase.py line:148: Run the Step: 8|CLICK|通用-文本框#姓名 is Pass
+2018-10-26 15:01:55,039 [INFO] testcase.py line:73: Run the Step: 9|INPUT|文本输入
+2018-10-26 15:01:55,635 [INFO] testcase.py line:148: Run the Step: 9|INPUT|通用-文本输入 is Pass
+2018-10-26 15:01:55,836 [INFO] testcase.py line:73: Run the Step: 10|CLICK|文本框#人员手机号
+2018-10-26 15:01:56,449 [INFO] testcase.py line:148: Run the Step: 10|CLICK|通用-文本框#人员手机号 is Pass
+2018-10-26 15:01:56,655 [INFO] testcase.py line:73: Run the Step: 11|INPUT|文本输入
+2018-10-26 15:01:57,275 [INFO] testcase.py line:148: Run the Step: 11|INPUT|通用-文本输入 is Pass
+2018-10-26 15:01:57,477 [INFO] testcase.py line:73: Run the Step: 12|CLICK|按钮#保存
+2018-10-26 15:01:58,098 [INFO] testcase.py line:148: Run the Step: 12|CLICK|通用-按钮#保存 is Pass
+2018-10-26 15:01:58,300 [INFO] testcase.py line:73: Run the Step: 13|CHECK|提示#保存成功
+2018-10-26 15:02:02,351 [ERROR] testcase.py line:167: *** save the screenshot is fail ***
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\keywords\web.py", line 68, in check
+    element_location = locating_element(element)
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\locator.py", line 29, in locating_element
+    (getattr(By, el['by'].upper()), value)))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 63, in __call__
+    return _find_element(driver, self.locator)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 402, in _find_element
+    raise e
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 398, in _find_element
+    return driver.find_element(*by)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 858, in find_element
+    'value': value})['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\testcase.py", line 165, in run
+    g.driver.get_screenshot_as_file(snapshot_file)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 911, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 943, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 953, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 15:02:02,395 [ERROR] testcase.py line:178: Run the Step: 13|CHECK|通用-提示#保存成功 is Failure
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\keywords\web.py", line 68, in check
+    element_location = locating_element(element)
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\locator.py", line 29, in locating_element
+    (getattr(By, el['by'].upper()), value)))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 63, in __call__
+    return _find_element(driver, self.locator)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 402, in _find_element
+    raise e
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 398, in _find_element
+    return driver.find_element(*by)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 858, in find_element
+    'value': value})['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 15:02:04,424 [ERROR] testsuite.py line:155: Clear the env is fail
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\testsuite.py", line 153, in run
+    w.close()
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\windows.py", line 121, in close
+    all_handles = g.driver.window_handles
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 634, in window_handles
+    return self.execute(Command.GET_WINDOW_HANDLES)['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 15:04:43,747 [ERROR] autotest.py line:96: *** From Excel import testsuite fail ***
+Traceback (most recent call last):
+  File "E:\Python36\lib\site-packages\xlrd\book.py", line 470, in sheet_by_name
+    sheetx = self._sheet_names.index(sheet_name)
+ValueError: 'sigle' is not in list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\autotest.py", line 90, in run
+    data = self.testcase_workbook.read(sheet_name)
+  File "E:\py_workspaces\sweetest\sweetest-master\sweetest\sweetest\utility.py", line 42, in read
+    sheet = self.workbook.sheet_by_name(sheet_name)
+  File "E:\Python36\lib\site-packages\xlrd\book.py", line 472, in sheet_by_name
+    raise XLRDError('No sheet named <%r>' % sheet_name)
+xlrd.biffh.XLRDError: No sheet named <'sigle'>
+2018-10-26 15:05:38,038 [INFO] autotest.py line:93: Testsuite imported from Excel:
+[
+    {
+        "id": "passport_001",
+        "title": "登录",
+        "condition": "BASE",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "H",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "data": "标签页名=portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "_data": "标签页名=portal",
+                "vdata": "标签页名=portal",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "登录页",
+                "element": "用户名",
+                "data": "w",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "用户名",
+                "_data": "w",
+                "vdata": "w",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "输入",
+                "page": "",
+                "element": "密码",
+                "data": "1",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "密码",
+                "_data": "1",
+                "vdata": "1",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "立即登录",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "立即登录",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "portal_001",
+        "title": "跳转到首页",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "首页",
+                "element": "logo",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "logo",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "sy_002",
+        "title": "员工新增",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#系统管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#系统管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#员工管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#员工管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#添加",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#添加",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "选择输入框#组织名称",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "选择输入框#组织名称",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "双击",
+                "page": "",
+                "element": "弹出选择项#1",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "双击",
+                "_element": "弹出选择项#1",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "6",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#员工编号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#员工编号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "7",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_普通编码>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_普通编码>",
+                "vdata": "<_普通编码>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "8",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#姓名",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#姓名",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "9",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "自动测试",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "自动测试",
+                "vdata": "自动测试",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "10",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#人员手机号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#人员手机号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "11",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_人员手机号>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_人员手机号>",
+                "vdata": "<_人员手机号>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "12",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#保存",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#保存",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "13",
+                "keyword": "检查",
+                "page": "",
+                "element": "提示#保存成功",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "提示#保存成功",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2018-10-26 15:05:38,386 [INFO] autotest.py line:94: From Excel import testsuite success
+2018-10-26 15:05:40,994 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 15:05:40,997 [INFO] testcase.py line:73: Run the Step: 1|OPEN|url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 15:05:41,970 [INFO] testcase.py line:148: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Pass
+2018-10-26 15:05:42,175 [INFO] testcase.py line:73: Run the Step: 2|INPUT|用户名
+2018-10-26 15:05:42,789 [INFO] testcase.py line:148: Run the Step: 2|INPUT|登录页-用户名 is Pass
+2018-10-26 15:05:42,991 [INFO] testcase.py line:73: Run the Step: 3|INPUT|密码
+2018-10-26 15:05:43,616 [INFO] testcase.py line:148: Run the Step: 3|INPUT|登录页-密码 is Pass
+2018-10-26 15:05:43,818 [INFO] testcase.py line:73: Run the Step: 4|CLICK|立即登录
+2018-10-26 15:05:44,451 [INFO] testcase.py line:148: Run the Step: 4|CLICK|登录页-立即登录 is Pass
+2018-10-26 15:05:44,653 [INFO] testcase.py line:73: Run the Step: 5|CHECK|页面url
+2018-10-26 15:05:44,654 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 15:05:44,972 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/'
+2018-10-26 15:05:44,976 [INFO] testcase.py line:148: Run the Step: 5|CHECK|通用-页面url is Pass
+2018-10-26 15:05:45,179 [INFO] testsuite.py line:98: Run the testcase: portal_001|跳转到首页 Skipped, because the flag=N or the condition=snippet
+2018-10-26 15:05:45,182 [INFO] testsuite.py line:28: Start running the SETUP testcase...
+2018-10-26 15:05:45,182 [INFO] testcase.py line:56: Run the TestCase: portal_001|跳转到首页
+2018-10-26 15:05:45,186 [INFO] testcase.py line:73: Run the Step: 1|CLICK|logo
+2018-10-26 15:05:46,101 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-logo is Pass
+2018-10-26 15:05:46,314 [INFO] testcase.py line:73: Run the Step: 2|CHECK|页面url
+2018-10-26 15:05:46,315 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 15:05:46,325 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/w0622'
+2018-10-26 15:05:46,337 [INFO] testcase.py line:148: Run the Step: 2|CHECK|通用-页面url is Pass
+2018-10-26 15:05:46,539 [INFO] testcase.py line:56: Run the TestCase: sy_002|员工新增
+2018-10-26 15:05:46,540 [INFO] testcase.py line:73: Run the Step: 1|CLICK|菜单#系统管理
+2018-10-26 15:05:47,162 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-菜单#系统管理 is Pass
+2018-10-26 15:05:47,367 [INFO] testcase.py line:73: Run the Step: 2|CLICK|菜单#员工管理
+2018-10-26 15:05:48,942 [INFO] testcase.py line:148: Run the Step: 2|CLICK|通用-菜单#员工管理 is Pass
+2018-10-26 15:05:49,173 [INFO] testcase.py line:73: Run the Step: 3|CLICK|按钮#添加
+2018-10-26 15:05:49,790 [INFO] testcase.py line:148: Run the Step: 3|CLICK|通用-按钮#添加 is Pass
+2018-10-26 15:05:49,992 [INFO] testcase.py line:73: Run the Step: 4|CLICK|选择输入框#组织名称
+2018-10-26 15:05:50,641 [INFO] testcase.py line:148: Run the Step: 4|CLICK|通用-选择输入框#组织名称 is Pass
+2018-10-26 15:05:50,845 [INFO] testcase.py line:73: Run the Step: 5|DOUBLE_CLICK|弹出选择项#1
+2018-10-26 15:05:51,436 [INFO] testcase.py line:148: Run the Step: 5|DOUBLE_CLICK|通用-弹出选择项#1 is Pass
+2018-10-26 15:05:51,640 [INFO] testcase.py line:73: Run the Step: 6|CLICK|文本框#员工编号
+2018-10-26 15:05:52,264 [INFO] testcase.py line:148: Run the Step: 6|CLICK|通用-文本框#员工编号 is Pass
+2018-10-26 15:05:52,469 [INFO] testcase.py line:73: Run the Step: 7|INPUT|文本输入
+2018-10-26 15:05:53,113 [INFO] testcase.py line:148: Run the Step: 7|INPUT|通用-文本输入 is Pass
+2018-10-26 15:05:53,315 [INFO] testcase.py line:73: Run the Step: 8|CLICK|文本框#姓名
+2018-10-26 15:05:53,990 [INFO] testcase.py line:148: Run the Step: 8|CLICK|通用-文本框#姓名 is Pass
+2018-10-26 15:05:54,193 [INFO] testcase.py line:73: Run the Step: 9|INPUT|文本输入
+2018-10-26 15:05:54,783 [INFO] testcase.py line:148: Run the Step: 9|INPUT|通用-文本输入 is Pass
+2018-10-26 15:05:55,009 [INFO] testcase.py line:73: Run the Step: 10|CLICK|文本框#人员手机号
+2018-10-26 15:05:55,622 [INFO] testcase.py line:148: Run the Step: 10|CLICK|通用-文本框#人员手机号 is Pass
+2018-10-26 15:05:55,826 [INFO] testcase.py line:73: Run the Step: 11|INPUT|文本输入
+2018-10-26 15:05:56,481 [INFO] testcase.py line:148: Run the Step: 11|INPUT|通用-文本输入 is Pass
+2018-10-26 15:05:56,683 [INFO] testcase.py line:73: Run the Step: 12|CLICK|按钮#保存
+2018-10-26 15:05:57,312 [INFO] testcase.py line:148: Run the Step: 12|CLICK|通用-按钮#保存 is Pass
+2018-10-26 15:05:57,514 [INFO] testcase.py line:73: Run the Step: 13|CHECK|提示#保存成功
+2018-10-26 15:05:57,545 [INFO] testcase.py line:148: Run the Step: 13|CHECK|通用-提示#保存成功 is Pass
+2018-10-26 16:15:05,520 [INFO] autotest.py line:93: Testsuite imported from Excel:
+[
+    {
+        "id": "passport_001",
+        "title": "登录",
+        "condition": "BASE",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "H",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "data": "标签页名=portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "_data": "标签页名=portal",
+                "vdata": "标签页名=portal",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "登录页",
+                "element": "用户名",
+                "data": "w",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "用户名",
+                "_data": "w",
+                "vdata": "w",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "输入",
+                "page": "",
+                "element": "密码",
+                "data": "1",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "密码",
+                "_data": "1",
+                "vdata": "1",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "立即登录",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "立即登录",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "portal_001",
+        "title": "跳转到首页",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "首页",
+                "element": "logo",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "logo",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "sy_003",
+        "title": "角色新增",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#系统管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#系统管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#角色",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#角色",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#添加",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#添加",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#角色编码",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#角色编码",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_普通编码>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_普通编码>",
+                "vdata": "<_普通编码>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "6",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#员工编号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#员工编号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "7",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "8",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#姓名",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#姓名",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "9",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "自动测试",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "自动测试",
+                "vdata": "自动测试",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "10",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#人员手机号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#人员手机号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "11",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_人员手机号>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_人员手机号>",
+                "vdata": "<_人员手机号>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "12",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#保存",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#保存",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "13",
+                "keyword": "检查",
+                "page": "",
+                "element": "提示#保存成功",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "提示#保存成功",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2018-10-26 16:15:05,823 [INFO] autotest.py line:94: From Excel import testsuite success
+2018-10-26 16:15:08,312 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 16:15:08,316 [INFO] testcase.py line:73: Run the Step: 1|OPEN|url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 16:15:09,293 [INFO] testcase.py line:148: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Pass
+2018-10-26 16:15:09,502 [INFO] testcase.py line:73: Run the Step: 2|INPUT|用户名
+2018-10-26 16:15:10,132 [INFO] testcase.py line:148: Run the Step: 2|INPUT|登录页-用户名 is Pass
+2018-10-26 16:15:10,334 [INFO] testcase.py line:73: Run the Step: 3|INPUT|密码
+2018-10-26 16:15:10,933 [INFO] testcase.py line:148: Run the Step: 3|INPUT|登录页-密码 is Pass
+2018-10-26 16:15:11,134 [INFO] testcase.py line:73: Run the Step: 4|CLICK|立即登录
+2018-10-26 16:15:11,739 [INFO] testcase.py line:148: Run the Step: 4|CLICK|登录页-立即登录 is Pass
+2018-10-26 16:15:11,941 [INFO] testcase.py line:73: Run the Step: 5|CHECK|页面url
+2018-10-26 16:15:11,942 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 16:15:12,678 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/'
+2018-10-26 16:15:12,683 [INFO] testcase.py line:148: Run the Step: 5|CHECK|通用-页面url is Pass
+2018-10-26 16:15:12,884 [INFO] testsuite.py line:98: Run the testcase: portal_001|跳转到首页 Skipped, because the flag=N or the condition=snippet
+2018-10-26 16:15:12,887 [INFO] testsuite.py line:28: Start running the SETUP testcase...
+2018-10-26 16:15:12,887 [INFO] testcase.py line:56: Run the TestCase: portal_001|跳转到首页
+2018-10-26 16:15:12,890 [INFO] testcase.py line:73: Run the Step: 1|CLICK|logo
+2018-10-26 16:15:22,190 [ERROR] testcase.py line:167: *** save the screenshot is fail ***
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\keywords\web.py", line 184, in click
+    all_handles = g.driver.window_handles
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 634, in window_handles
+    return self.execute(Command.GET_WINDOW_HANDLES)['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 165, in run
+    g.driver.get_screenshot_as_file(snapshot_file)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 911, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 943, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 953, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 16:15:22,194 [ERROR] testcase.py line:178: Run the Step: 1|CLICK|通用-logo is Failure
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\keywords\web.py", line 184, in click
+    all_handles = g.driver.window_handles
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 634, in window_handles
+    return self.execute(Command.GET_WINDOW_HANDLES)['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 16:15:22,196 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 16:15:22,196 [INFO] testcase.py line:73: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 16:15:22,196 [WARNING] elements.py line:57: Page:通用 element:通用-url#http://v3-yfb-portal.hd-cloud.com is not exist
+2018-10-26 16:15:34,207 [ERROR] testcase.py line:167: *** save the screenshot is fail ***
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\keywords\web.py", line 57, in open
+    g.driver.get(value)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 323, in get
+    self.execute(Command.GET, {'url': url})
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 165, in run
+    g.driver.get_screenshot_as_file(snapshot_file)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 911, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 943, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 953, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 16:15:34,209 [ERROR] testcase.py line:178: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Failure
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\keywords\web.py", line 57, in open
+    g.driver.get(value)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 323, in get
+    self.execute(Command.GET, {'url': url})
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 16:15:34,210 [INFO] testcase.py line:56: Run the TestCase: sy_003|角色新增
+2018-10-26 16:15:34,211 [INFO] testcase.py line:73: Run the Step: 1|CLICK|菜单#系统管理
+2018-10-26 16:15:46,233 [ERROR] testcase.py line:167: *** save the screenshot is fail ***
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\keywords\web.py", line 160, in click
+    element_location = locating_element(element, 'CLICK')
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\locator.py", line 26, in locating_element
+    (getattr(By, el['by'].upper()), value)))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 283, in __call__
+    element = visibility_of_element_located(self.locator)(driver)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 402, in _find_element
+    raise e
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 398, in _find_element
+    return driver.find_element(*by)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 858, in find_element
+    'value': value})['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 165, in run
+    g.driver.get_screenshot_as_file(snapshot_file)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 911, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 943, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 953, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 16:15:46,236 [ERROR] testcase.py line:178: Run the Step: 1|CLICK|通用-菜单#系统管理 is Failure
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\keywords\web.py", line 160, in click
+    element_location = locating_element(element, 'CLICK')
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\locator.py", line 26, in locating_element
+    (getattr(By, el['by'].upper()), value)))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 283, in __call__
+    element = visibility_of_element_located(self.locator)(driver)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 127, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 402, in _find_element
+    raise e
+  File "E:\Python36\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 398, in _find_element
+    return driver.find_element(*by)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 858, in find_element
+    'value': value})['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 16:15:46,474 [ERROR] testsuite.py line:155: Clear the env is fail
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testsuite.py", line 153, in run
+    w.close()
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\windows.py", line 121, in close
+    all_handles = g.driver.window_handles
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 634, in window_handles
+    return self.execute(Command.GET_WINDOW_HANDLES)['value']
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 311, in execute
+    self.error_handler.check_response(response)
+  File "E:\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 237, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 16:41:14,435 [INFO] autotest.py line:93: Testsuite imported from Excel:
+[
+    {
+        "id": "passport_001",
+        "title": "登录",
+        "condition": "BASE",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "H",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "data": "标签页名=portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "_data": "标签页名=portal",
+                "vdata": "标签页名=portal",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "登录页",
+                "element": "用户名",
+                "data": "w",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "用户名",
+                "_data": "w",
+                "vdata": "w",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "输入",
+                "page": "",
+                "element": "密码",
+                "data": "1",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "密码",
+                "_data": "1",
+                "vdata": "1",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "立即登录",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "立即登录",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "portal_001",
+        "title": "跳转到首页",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "首页",
+                "element": "logo",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "logo",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "sy_003",
+        "title": "角色新增",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#系统管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#系统管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#角色",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#角色",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#添加",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#添加",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#角色编码",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#角色编码",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_普通编码>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_普通编码>",
+                "vdata": "<_普通编码>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "6",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#员工编号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#员工编号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "7",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "8",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#姓名",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#姓名",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "9",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "自动测试",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "自动测试",
+                "vdata": "自动测试",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "10",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#人员手机号",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#人员手机号",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "11",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_人员手机号>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_人员手机号>",
+                "vdata": "<_人员手机号>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "12",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#保存",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#保存",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "13",
+                "keyword": "检查",
+                "page": "",
+                "element": "提示#保存成功",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "提示#保存成功",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2018-10-26 16:41:14,439 [INFO] autotest.py line:94: From Excel import testsuite success
+2018-10-26 16:41:16,970 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 16:41:16,970 [INFO] testcase.py line:73: Run the Step: 1|OPEN|url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 16:41:17,951 [INFO] testcase.py line:148: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Pass
+2018-10-26 16:41:18,151 [INFO] testcase.py line:73: Run the Step: 2|INPUT|用户名
+2018-10-26 16:41:18,744 [INFO] testcase.py line:148: Run the Step: 2|INPUT|登录页-用户名 is Pass
+2018-10-26 16:41:18,944 [INFO] testcase.py line:73: Run the Step: 3|INPUT|密码
+2018-10-26 16:41:19,535 [INFO] testcase.py line:148: Run the Step: 3|INPUT|登录页-密码 is Pass
+2018-10-26 16:41:19,735 [INFO] testcase.py line:73: Run the Step: 4|CLICK|立即登录
+2018-10-26 16:41:20,343 [INFO] testcase.py line:148: Run the Step: 4|CLICK|登录页-立即登录 is Pass
+2018-10-26 16:41:20,543 [INFO] testcase.py line:73: Run the Step: 5|CHECK|页面url
+2018-10-26 16:41:20,543 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 16:41:21,312 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/'
+2018-10-26 16:41:21,366 [INFO] testcase.py line:148: Run the Step: 5|CHECK|通用-页面url is Pass
+2018-10-26 16:41:21,567 [INFO] testsuite.py line:98: Run the testcase: portal_001|跳转到首页 Skipped, because the flag=N or the condition=snippet
+2018-10-26 16:41:21,567 [INFO] testsuite.py line:28: Start running the SETUP testcase...
+2018-10-26 16:41:21,567 [INFO] testcase.py line:56: Run the TestCase: portal_001|跳转到首页
+2018-10-26 16:41:21,567 [INFO] testcase.py line:73: Run the Step: 1|CLICK|logo
+2018-10-26 16:41:22,974 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-logo is Pass
+2018-10-26 16:41:23,174 [INFO] testcase.py line:73: Run the Step: 2|CHECK|页面url
+2018-10-26 16:41:23,174 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 16:41:23,217 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/w0622'
+2018-10-26 16:41:23,266 [INFO] testcase.py line:148: Run the Step: 2|CHECK|通用-页面url is Pass
+2018-10-26 16:41:23,466 [INFO] testcase.py line:56: Run the TestCase: sy_003|角色新增
+2018-10-26 16:41:23,466 [INFO] testcase.py line:73: Run the Step: 1|CLICK|菜单#系统管理
+2018-10-26 16:41:24,084 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-菜单#系统管理 is Pass
+2018-10-26 16:41:24,284 [INFO] testcase.py line:73: Run the Step: 2|CLICK|菜单#角色
+2018-10-26 16:41:25,998 [INFO] testcase.py line:148: Run the Step: 2|CLICK|通用-菜单#角色 is Pass
+2018-10-26 16:41:26,199 [INFO] testcase.py line:73: Run the Step: 3|CLICK|按钮#添加
+2018-10-26 16:41:26,700 [ERROR] testcase.py line:178: Run the Step: 3|CLICK|通用-按钮#添加 is Failure
+Traceback (most recent call last):
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\testcase.py", line 105, in run
+    getattr(web, step['keyword'].lower())(step)
+  File "E:\py_workspaces\sweetest\sweetest-master\hap_test\sweetest\keywords\web.py", line 162, in click
+    element_location.click()
+  File "E:\py_workspaces\sweetest\sweetest-master\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "E:\py_workspaces\sweetest\sweetest-master\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "E:\py_workspaces\sweetest\sweetest-master\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "E:\py_workspaces\sweetest\sweetest-master\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element <a href="javascript:void(0);" class="icon-right">...</a> is not clickable at point (418, 159). Other element would receive the click: <div class=" container">...</div>
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-10-26 16:52:04,145 [INFO] autotest.py line:93: Testsuite imported from Excel:
+[
+    {
+        "id": "passport_001",
+        "title": "登录",
+        "condition": "BASE",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "H",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "打开",
+                "page": "",
+                "element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "data": "标签页名=portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "打开",
+                "_element": "url#http://v3-yfb-portal.hd-cloud.com",
+                "_data": "标签页名=portal",
+                "vdata": "标签页名=portal",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "输入",
+                "page": "登录页",
+                "element": "用户名",
+                "data": "w",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "用户名",
+                "_data": "w",
+                "vdata": "w",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "输入",
+                "page": "",
+                "element": "密码",
+                "data": "1",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "密码",
+                "_data": "1",
+                "vdata": "1",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "立即登录",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "立即登录",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "portal_001",
+        "title": "跳转到首页",
+        "condition": "SETUP",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "首页",
+                "element": "logo",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "logo",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "检查",
+                "page": "",
+                "element": "页面url",
+                "data": "*portal",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "页面url",
+                "_data": "*portal",
+                "vdata": "*portal",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    },
+    {
+        "id": "sy_003",
+        "title": "角色新增",
+        "condition": "",
+        "designer": "",
+        "flag": "",
+        "result": "",
+        "remark": "",
+        "priority": "M",
+        "steps": [
+            {
+                "control": "",
+                "no": "1",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#系统管理",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#系统管理",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "2",
+                "keyword": "点击",
+                "page": "",
+                "element": "菜单#角色",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "菜单#角色",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "3",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#添加",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#添加",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "4",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#角色编码",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#角色编码",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "5",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "<_普通编码>",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "<_普通编码>",
+                "vdata": "<_普通编码>",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "6",
+                "keyword": "点击",
+                "page": "",
+                "element": "文本框#角色名称",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "文本框#角色名称",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "7",
+                "keyword": "输入",
+                "page": "",
+                "element": "文本输入",
+                "data": "角色名称-自动测试",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "输入",
+                "_element": "文本输入",
+                "_data": "角色名称-自动测试",
+                "vdata": "角色名称-自动测试",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "8",
+                "keyword": "点击",
+                "page": "",
+                "element": "按钮#保存",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "点击",
+                "_element": "按钮#保存",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            },
+            {
+                "control": "",
+                "no": "9",
+                "keyword": "检查",
+                "page": "",
+                "element": "提示#保存成功",
+                "data": "",
+                "expected": "",
+                "output": "",
+                "score": "",
+                "remark": "",
+                "_keyword": "检查",
+                "_element": "提示#保存成功",
+                "_data": "",
+                "vdata": "",
+                "_expected": "",
+                "_output": ""
+            }
+        ]
+    }
+]
+2018-10-26 16:52:04,247 [INFO] autotest.py line:94: From Excel import testsuite success
+2018-10-26 16:52:06,787 [INFO] testcase.py line:56: Run the TestCase: passport_001|登录
+2018-10-26 16:52:06,788 [INFO] testcase.py line:73: Run the Step: 1|OPEN|url#http://v3-yfb-portal.hd-cloud.com
+2018-10-26 16:52:07,771 [INFO] testcase.py line:148: Run the Step: 1|OPEN|通用-url#http://v3-yfb-portal.hd-cloud.com is Pass
+2018-10-26 16:52:07,976 [INFO] testcase.py line:73: Run the Step: 2|INPUT|用户名
+2018-10-26 16:52:08,568 [INFO] testcase.py line:148: Run the Step: 2|INPUT|登录页-用户名 is Pass
+2018-10-26 16:52:08,770 [INFO] testcase.py line:73: Run the Step: 3|INPUT|密码
+2018-10-26 16:52:09,377 [INFO] testcase.py line:148: Run the Step: 3|INPUT|登录页-密码 is Pass
+2018-10-26 16:52:09,579 [INFO] testcase.py line:73: Run the Step: 4|CLICK|立即登录
+2018-10-26 16:52:10,236 [INFO] testcase.py line:148: Run the Step: 4|CLICK|登录页-立即登录 is Pass
+2018-10-26 16:52:10,437 [INFO] testcase.py line:73: Run the Step: 5|CHECK|页面url
+2018-10-26 16:52:10,439 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 16:52:11,007 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/'
+2018-10-26 16:52:11,017 [INFO] testcase.py line:148: Run the Step: 5|CHECK|通用-页面url is Pass
+2018-10-26 16:52:11,218 [INFO] testsuite.py line:98: Run the testcase: portal_001|跳转到首页 Skipped, because the flag=N or the condition=snippet
+2018-10-26 16:52:11,220 [INFO] testsuite.py line:28: Start running the SETUP testcase...
+2018-10-26 16:52:11,221 [INFO] testcase.py line:56: Run the TestCase: portal_001|跳转到首页
+2018-10-26 16:52:11,222 [INFO] testcase.py line:73: Run the Step: 1|CLICK|logo
+2018-10-26 16:52:12,304 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-logo is Pass
+2018-10-26 16:52:12,506 [INFO] testcase.py line:73: Run the Step: 2|CHECK|页面url
+2018-10-26 16:52:12,507 [INFO] web.py line:28: DATA:'*portal'
+2018-10-26 16:52:12,510 [INFO] web.py line:29: REAL:'http://v3-yfb-portal.hd-cloud.com/w0622'
+2018-10-26 16:52:12,516 [INFO] testcase.py line:148: Run the Step: 2|CHECK|通用-页面url is Pass
+2018-10-26 16:52:12,717 [INFO] testcase.py line:56: Run the TestCase: sy_003|角色新增
+2018-10-26 16:52:12,718 [INFO] testcase.py line:73: Run the Step: 1|CLICK|菜单#系统管理
+2018-10-26 16:52:13,331 [INFO] testcase.py line:148: Run the Step: 1|CLICK|通用-菜单#系统管理 is Pass
+2018-10-26 16:52:13,535 [INFO] testcase.py line:73: Run the Step: 2|CLICK|菜单#角色
+2018-10-26 16:52:15,107 [INFO] testcase.py line:148: Run the Step: 2|CLICK|通用-菜单#角色 is Pass
+2018-10-26 16:52:15,310 [INFO] testcase.py line:73: Run the Step: 3|CLICK|按钮#添加
+2018-10-26 16:52:15,959 [INFO] testcase.py line:148: Run the Step: 3|CLICK|通用-按钮#添加 is Pass
+2018-10-26 16:52:16,162 [INFO] testcase.py line:73: Run the Step: 4|CLICK|文本框#角色编码
+2018-10-26 16:52:16,823 [INFO] testcase.py line:148: Run the Step: 4|CLICK|通用-文本框#角色编码 is Pass
+2018-10-26 16:52:17,027 [INFO] testcase.py line:73: Run the Step: 5|INPUT|文本输入
+2018-10-26 16:52:17,664 [INFO] testcase.py line:148: Run the Step: 5|INPUT|通用-文本输入 is Pass
+2018-10-26 16:52:17,866 [INFO] testcase.py line:73: Run the Step: 6|CLICK|文本框#角色名称
+2018-10-26 16:52:18,466 [INFO] testcase.py line:148: Run the Step: 6|CLICK|通用-文本框#角色名称 is Pass
+2018-10-26 16:52:18,670 [INFO] testcase.py line:73: Run the Step: 7|INPUT|文本输入
+2018-10-26 16:52:19,274 [INFO] testcase.py line:148: Run the Step: 7|INPUT|通用-文本输入 is Pass
+2018-10-26 16:52:19,476 [INFO] testcase.py line:73: Run the Step: 8|CLICK|按钮#保存
+2018-10-26 16:52:20,079 [INFO] testcase.py line:148: Run the Step: 8|CLICK|通用-按钮#保存 is Pass
+2018-10-26 16:52:20,281 [INFO] testcase.py line:73: Run the Step: 9|CHECK|提示#保存成功
+2018-10-26 16:52:20,310 [INFO] testcase.py line:148: Run the Step: 9|CHECK|通用-提示#保存成功 is Pass

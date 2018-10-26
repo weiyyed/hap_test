@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite errors="0" errors_detail="H:0 M:0 L:0" failures="1" failures_detail="H:0 M:1 L:0" hostname="sy" name="Sy" tests="2" time="12.92574" timestamp="2018-10-18T13:23:58.594488">
+		<testcase classname="passport_001" name="登录" priority="H" time="4.118236"/>
+		<testcase classname="sy_001" name="部门新增" priority="M" time="6.029345">
+			<failure message="step-5|INPUT|通用-组织编码: Message: unknown error: cannot focus element
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+" type="Fail"/>
+		</testcase>
+	</testsuite>
+</testsuites>

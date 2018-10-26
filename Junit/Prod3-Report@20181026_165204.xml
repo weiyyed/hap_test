@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite errors="0" errors_detail="H:0 M:0 L:0" failures="0" failures_detail="H:0 M:0 L:0" hostname="single" name="Prod3" tests="2" time="16.370936" timestamp="2018-10-26T16:52:04.144495">
+		<testcase classname="passport_001" name="登录" priority="H" time="4.431253"/>
+		<testcase classname="sy_003" name="角色新增" priority="M" time="9.294532"/>
+	</testsuite>
+</testsuites>

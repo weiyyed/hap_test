@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite errors="0" errors_detail="H:0 M:0 L:0" failures="1" failures_detail="H:0 M:1 L:0" hostname="sy" name="Sy" tests="2" time="27.504573" timestamp="2018-10-18T15:56:31.524006">
+		<testcase classname="passport_001" name="登录" priority="H" time="4.293246"/>
+		<testcase classname="sy_001" name="部门新增" priority="M" time="20.426168">
+			<failure message="step-8|CHECK|通用-提示#保存成功: Message: 
+" type="Fail"/>
+		</testcase>
+	</testsuite>
+</testsuites>
