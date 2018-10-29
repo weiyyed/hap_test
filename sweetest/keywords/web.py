@@ -153,6 +153,10 @@ def input(step):
                 element_location.send_keys(data[key])
             sleep(0.5)
 
+def click_input(step):
+    click(step)
+    input(step)
+
 
 def click(step):
     element = step['element']
