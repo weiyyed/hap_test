@@ -1,6 +1,6 @@
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
-import re
+import re,os
 from sweetest.globals import g
 from sweetest.elements import e
 from sweetest.windows import w
@@ -275,14 +275,19 @@ def upload(step):
     element_location = locating_element(element)
     file_path = data.get('text', '') or data.get('file', '')
 
+    cur_path=os.path.abspath(os.path.dirname(__file__))
+    tem_path=os.path.dirname(os.path.dirname(cur_path))
+    file_path=os.path.join(os.path.join(tem_path,r'data\import'),file_path)
+
     element_location.click()
-    sleep(3)
+    sleep(1)
     shell = win32com.client.Dispatch("WScript.Shell")
     shell.Sendkeys(file_path)
-    sleep(2)
+    sleep(5)
     shell.Sendkeys("{ENTER}")
-    sleep(2)
 
+    shell.Sendkeys("{ENTER}")
+    sleep(1)
 
 def refresh(step):
     g.driver.refresh()
