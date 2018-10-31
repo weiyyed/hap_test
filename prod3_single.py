@@ -2,17 +2,14 @@ from sweetest.autotest import Autotest
 import sys
 
 
-# 项目名称，和测试用例、页面元素表文件名称中的项目名称必须一致
+# 项目名称
 project_name = 'Prod3'
 
-# 单 sheet 页面模式
-sheet_name = 'single'
+# 单用例调试或挑用例执行
+sheet_name = ['single']
 
-# sheet 页面匹配模式，仅支持结尾带*
-#sheet_name = 'TestCase*'
-
-# sheet 页面列表模式
-#sheet_name = ['TestCase', 'test']
+# 项目所有用例执行，*模糊匹配
+#sheet_name = 'hap*'
 
 # 环境配置信息
 # Chrome
@@ -26,10 +23,10 @@ sweet = Autotest(project_name, sheet_name, desired_caps, server_url)
 # 按条件执行,支持筛选的属性有：'id', 'title', 'designer', 'priority'
 # sweet.fliter(priority='H')
 
-# 执行自动化测试
+# 执行
 sweet.plan()
 
-#测试报告详细数据，可以自行处理后写入其他测试报告系统
+#测试报告详细数据
 #print(sweet.report_data)
 
 # 如果是集成到 CI/CD，可以给出退出码

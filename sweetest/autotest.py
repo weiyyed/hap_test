@@ -17,8 +17,7 @@ from sweetest.config import _testcase, _elements, _report
 
 
 class Autotest:
-    #项目名，页签名，配置项（默认以chrome方式启动启动web），
-    # 初始化用例、元素、报表文件，获取用例页签组
+
     def __init__(self, file_name, sheet_name, desired_caps={}, server_url=''):
         g.start_time = time.strftime("@%Y%m%d_%H%M%S", time.localtime())
 
@@ -55,7 +54,7 @@ class Autotest:
     #测试套件执行
     def plan(self):
         self.code = 0  # 返回码
-        # 1.解析配置文件，获取元素列表：page-element
+        # 1.解析配置文件
         try:
             e.get_elements(self.elements_file)
         except:

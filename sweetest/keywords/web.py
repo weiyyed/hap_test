@@ -283,9 +283,8 @@ def upload(step):
     sleep(1)
     shell = win32com.client.Dispatch("WScript.Shell")
     shell.Sendkeys(file_path)
-    sleep(5)
+    sleep(1)
     shell.Sendkeys("{ENTER}")
-
     shell.Sendkeys("{ENTER}")
     sleep(1)
 
