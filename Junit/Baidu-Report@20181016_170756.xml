@@ -1,6 +1,0 @@
-<?xml version="1.0" ?>
-<testsuites>
-	<testsuite errors="0" errors_detail="H:0 M:0 L:0" failures="0" failures_detail="H:0 M:0 L:0" hostname="baidu" name="Baidu" tests="1" time="6.519373" timestamp="2018-10-16T17:07:56.733607">
-		<testcase classname="BAIDU_001" name="搜索：自动化测试" priority="H" time="3.811218"/>
-	</testsuite>
-</testsuites>

@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuites>
-	<testsuite errors="0" errors_detail="H:0 M:0 L:0" failures="1" failures_detail="H:1 M:0 L:0" hostname="sy" name="Sy" tests="1" time="10.357592" timestamp="2018-10-17T15:20:23.950663">
-		<testcase classname="Passport_001" name="登录" priority="H" time="7.790446">
-			<failure message="step-4|CHECK|通用-页面url: " type="Fail"/>
-		</testcase>
-	</testsuite>
-</testsuites>

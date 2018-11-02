@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuites>
-	<testsuite errors="0" errors_detail="H:0 M:0 L:0" failures="0" failures_detail="H:0 M:0 L:0" hostname="baidu" name="Baidu" tests="1" time="16.295932" timestamp="2018-10-17T13:56:35.509626">
-		<testcase classname="BAIDU_001" name="搜索：自动化测试" priority="H" time="13.358764">
-			<blocked message="SETUP is not Pass" type="Blocked"/>
-		</testcase>
-	</testsuite>
-</testsuites>

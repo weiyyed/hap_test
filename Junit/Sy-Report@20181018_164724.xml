@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<testsuites>
-	<testsuite errors="0" errors_detail="H:0 M:0 L:0" failures="0" failures_detail="H:0 M:0 L:0" hostname="sy" name="Sy" tests="2" time="17.99703" timestamp="2018-10-18T16:47:24.187608">
-		<testcase classname="passport_001" name="登录" priority="H" time="4.167238"/>
-		<testcase classname="sy_001" name="部门新增" priority="M" time="11.228642"/>
-	</testsuite>
-</testsuites>
