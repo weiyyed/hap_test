@@ -275,9 +275,10 @@ def upload(step):
     element_location = locating_element(element)
     file_path = data.get('text', '') or data.get('file', '')
 
-    cur_path=os.path.abspath(os.path.dirname(__file__))
-    tem_path=os.path.dirname(os.path.dirname(cur_path))
-    file_path=os.path.join(os.path.join(tem_path,r'data\import'),file_path)
+    if ':' not in file_path:
+        cur_path=os.path.abspath(os.path.dirname(__file__))
+        tem_path=os.path.dirname(os.path.dirname(cur_path))
+        file_path=os.path.join(os.path.join(tem_path,r'data\import'),file_path)
 
     element_location.click()
     sleep(1)
