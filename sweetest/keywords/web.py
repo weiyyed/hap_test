@@ -63,64 +63,70 @@ def check(step):
     data = step['data']
     if not data:
         data = step['expected']
-
     element = step['element']
-    element_location = locating_element(element)
-    if '#' in element:
-        e_name = element.split('#')[0] + '#'
-    else:
-        e_name = element
-    by = e.elements[e_name]['by']
-    output = step['output']
+    if element:
+        element_location = locating_element(element)
+        if '#' in element:
+            e_name = element.split('#')[0] + '#'
+        else:
+            e_name = element
+        by = e.elements[e_name]['by']
+        output = step['output']
 
-    if by in ('title', 'current_url'):
-        getattr(Common, by)(data, output)
+        if by in ('title', 'current_url'):
+            getattr(Common, by)(data, output)
 
+        else:
+            for key in data:
+                # 预期结果
+                expected = data[key]
+                # 切片操作处理
+                s = re.findall(r'\[.*?\]', key)
+                if s:
+                    s = s[0]
+                    key = key.replace(s, '')
+
+                if key == 'text':
+                    real = element_location.text
+                else:
+                    real = element_location.get_attribute(key)
+                if s:
+                    real = eval('real' + s)
+                logger.info('DATA:%s' % repr(expected))
+                logger.info('REAL:%s' % repr(real))
+                if isinstance(expected, str):
+                    if expected.startswith('*'):
+                        assert expected[1:] in real
+                    else:
+                        assert expected == real
+                elif isinstance(expected, int):
+                    real = str2int(real)
+                    assert real == round(expected)
+                elif isinstance(expected, float):
+                    t, p1 = str2float(real)
+                    d, p2 = str2float(expected)
+                    p = min(p1, p2)
+                    assert round(t, p) == round(d, p)
+                elif expected is None:
+                    assert real == ''
+
+            # 获取元素其他属性
+            for key in output:
+                if output[key] == 'text':
+                    g.var[key] = element_location.text
+                elif output[key] in ('text…', 'text...'):
+                    if element_location.text.endswith('...'):
+                        g.var[key] = element_location.text[:-3]
+                    else:
+                        g.var[key] = element_location.text
+                else:
+                    g.var[key] = element_location.get_attribute(output[key])
+    # 非元素判断：
     else:
         for key in data:
-            # 预期结果
-            expected = data[key]
-            # 切片操作处理
-            s = re.findall(r'\[.*?\]', key)
-            if s:
-                s = s[0]
-                key = key.replace(s, '')
+            assert data[key]==g.var[key]
 
-            if key == 'text':
-                real = element_location.text
-            else:
-                real = element_location.get_attribute(key)
-            if s:
-                real = eval('real' + s)
-            logger.info('DATA:%s' % repr(expected))
-            logger.info('REAL:%s' % repr(real))
-            if isinstance(expected, str):
-                if expected.startswith('*'):
-                    assert expected[1:] in real
-                else:
-                    assert expected == real
-            elif isinstance(expected, int):
-                real = str2int(real)
-                assert real == round(expected)
-            elif isinstance(expected, float):
-                t, p1 = str2float(real)
-                d, p2 = str2float(expected)
-                p = min(p1, p2)
-                assert round(t, p) == round(d, p)
-            elif expected is None:
-                assert real == ''
 
-        # 获取元素其他属性
-        for key in output:
-            if output[key] == 'text':
-                g.var[key] = element_location.text
-            elif output[key] in ('text…', 'text...'):
-                if element_location.text.endswith('...'):
-                    g.var[key] = element_location.text[:-3]
-                else:
-                    g.var[key] = element_location.text
-            else:
-                g.var[key] = element_location.get_attribute(output[key])
 
 
 def notcheck(step):
