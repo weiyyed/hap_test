@@ -57,7 +57,7 @@ class TestCase:
         self.testcase['result'] = 'Pass'
         self.testcase['report'] = ''
         if_result = ''
-
+        last_no=0 #上次编号
         for index, step in enumerate(self.testcase['steps']):
             # if 为否，不执行 then 语句
             if step['control'] == '>' and not if_result:
@@ -68,7 +68,11 @@ class TestCase:
             if step['control'] == '<' and if_result:
                 step['score'] = '-'
                 continue
-
+            # 编号小于上次
+            cur_no=int(''.join(filter(str.isdigit,step['no'])))
+            if  cur_no < last_no:
+                continue
+            last_no=cur_no
             logger.info('Run the Step: %s|%s|%s' %
                         (step['no'], step['keyword'], step['element']))
 
@@ -155,26 +159,27 @@ class TestCase:
                 # 操作后，等待0.2秒
                 sleep(0.2)
             except Exception as exception:
-                file_name = g.project_name + '-' + g.sheet_name + g.start_time + \
-                    '#' + self.testcase['id'] + \
-                    '-' + str(step['no']) + '.png'
-                snapshot_file = path.join('snapshot', file_name)
+                if str(exception) != 'contion is fail':
+                    file_name = g.project_name + '-' + g.sheet_name + g.start_time + \
+                        '#' + self.testcase['id'] + \
+                        '-' + str(step['no']) + '.png'
+                    snapshot_file = path.join('snapshot', file_name)
 
-                if g.platform.lower() in ('desktop',) and step['keyword'] in web_keywords:
-                    try:
-                        g.driver.get_screenshot_as_file(snapshot_file)
-                    except:
-                        logger.exception('*** save the screenshot is fail ***')
+                    if g.platform.lower() in ('desktop',) and step['keyword'] in web_keywords:
+                        try:
+                            g.driver.get_screenshot_as_file(snapshot_file)
+                        except:
+                            logger.exception('*** save the screenshot is fail ***')
 
-                elif g.platform.lower() in ('ios', 'android') and step['keyword'] in mobile_keywords:
-                    try:
-                        g.driver.switch_to_default_content()
-                        w.current_context = 'NATIVE_APP'
-                        g.driver.get_screenshot_as_file(snapshot_file)
-                    except:
-                        logger.exception('*** save the screenshot is fail ***')
+                    elif g.platform.lower() in ('ios', 'android') and step['keyword'] in mobile_keywords:
+                        try:
+                            g.driver.switch_to_default_content()
+                            w.current_context = 'NATIVE_APP'
+                            g.driver.get_screenshot_as_file(snapshot_file)
+                        except:
+                            logger.exception('*** save the screenshot is fail ***')
 
-                logger.exception('Run the Step: %s|%s|%s is Failure' %
+                    logger.exception('Run the Step: %s|%s|%s is Failure' %
                                  (step['no'], step['keyword'], step['element']))
                 step['score'] = 'NO'
 

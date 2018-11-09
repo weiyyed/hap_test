@@ -1,6 +1,7 @@
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
-import re,os
+import re
+from os import path
 from sweetest.globals import g
 from sweetest.elements import e
 from sweetest.windows import w
@@ -124,7 +125,7 @@ def check(step):
     # 非元素判断：
     else:
         for key in data:
-            assert data[key]==g.var[key]
+            assert data[key]==g.var[key],'contion is fail'
 
 
 
@@ -282,9 +283,10 @@ def upload(step):
     file_path = data.get('text', '') or data.get('file', '')
 
     if ':' not in file_path:
-        cur_path=os.path.abspath(os.path.dirname(__file__))
-        tem_path=os.path.dirname(os.path.dirname(cur_path))
-        file_path=os.path.join(os.path.join(tem_path,r'data\import'),file_path)
+        # cur_path=path.abspath(path.dirname(__file__))
+        # tem_path=path.dirname(path.dirname(cur_path))
+        # file_path=path.join(path.join(tem_path,r'data\import'),file_path)
+        file_path=path.abspath(path.join(r'data\import',file_path))
 
     element_location.click()
     sleep(1)
