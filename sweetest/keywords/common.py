@@ -107,9 +107,9 @@ def sql(step):
             logger.info('key: %s, expect: %s, real: %s' %
                         (repr(key), repr(data[key]), repr(result[key])))
             if data[key].startswith('*'):
-                assert data[key][1:] in result[key]
+                assert str(data[key][1:]) in str(result[key])
             else:
-                assert data[key] == result[key]
+                assert str(data[key])== str(result[key])
 
     output = step['output']
     if output:
