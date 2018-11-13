@@ -1,0 +1,69 @@
+{
+  "uid" : "8b76c94027c3b6f3",
+  "name" : "部门新增",
+  "historyId" : "Prod3:sy_001#部门新增",
+  "time" : {
+    "start" : 1542095016392,
+    "stop" : 1542095028850,
+    "duration" : 12458
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Prod3"
+  }, {
+    "name" : "host",
+    "value" : "single"
+  }, {
+    "name" : "testClass",
+    "value" : "sy_001"
+  }, {
+    "name" : "package",
+    "value" : "sy_001"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2a7b6ec0a01bb2ab",
+      "status" : "failed",
+      "statusDetails" : "step-8|CHECK|通用-提示#保存成功: Message:  ",
+      "time" : {
+        "start" : 1542094120379,
+        "stop" : 1542094141135,
+        "duration" : 20756
+      }
+    }, {
+      "uid" : "1e8309d00cc69f58",
+      "status" : "failed",
+      "statusDetails" : "step-8|CHECK|通用-提示#保存成功: Message: no such window: target window already closed from unknown error: web view not found   (Session info: chrome=70.0.3538.77)   (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) ",
+      "time" : {
+        "start" : 1542093830212,
+        "stop" : 1542093848114,
+        "duration" : 17902
+      }
+    }, {
+      "uid" : "3908245fef0fe1ec",
+      "status" : "failed",
+      "statusDetails" : "step-3|CLICK|通用-左侧树#2: Message: unknown error: Element <span>...</span> is not clickable at point (251, 184). Other element would receive the click: <span class=\"title\" style=\"margin-left: 0em;\">...</span>   (Session info: chrome=70.0.3538.77)   (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) ",
+      "time" : {
+        "start" : 1542093731835,
+        "stop" : 1542093740145,
+        "duration" : 8310
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b76c94027c3b6f3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "140625801f7155f2",
+  "name" : "sql执行示例",
+  "historyId" : "Prod3:sql_001#sql执行示例",
+  "time" : {
+    "start" : 1542095016392,
+    "stop" : 1542095018827,
+    "duration" : 2435
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Prod3"
+  }, {
+    "name" : "host",
+    "value" : "single"
+  }, {
+    "name" : "testClass",
+    "value" : "sql_001"
+  }, {
+    "name" : "package",
+    "value" : "sql_001"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "feff5f7630920d67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542094120379,
+        "stop" : 1542094122890,
+        "duration" : 2511
+      }
+    }, {
+      "uid" : "3b0f14b75e3d0cf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542093830212,
+        "stop" : 1542093830554,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "d4e12e2ef20e556d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542093731835,
+        "stop" : 1542093734491,
+        "duration" : 2656
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "140625801f7155f2.json",
+  "parameterValues" : [ ]
+}

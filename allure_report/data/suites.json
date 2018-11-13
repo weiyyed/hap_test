@@ -1,0 +1,57 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Prod3",
+    "children" : [ {
+      "name" : "",
+      "uid" : "1121f9d326cb0f71",
+      "parentUid" : "0167865b2bf178f376f48917d097aff8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1542093731835,
+        "stop" : 1542093741200,
+        "duration" : 9365
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "登录",
+      "uid" : "36239417d1c115f6",
+      "parentUid" : "0167865b2bf178f376f48917d097aff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542095016392,
+        "stop" : 1542095020403,
+        "duration" : 4011
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "部门新增",
+      "uid" : "8b76c94027c3b6f3",
+      "parentUid" : "0167865b2bf178f376f48917d097aff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542095016392,
+        "stop" : 1542095028850,
+        "duration" : 12458
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "sql执行示例",
+      "uid" : "140625801f7155f2",
+      "parentUid" : "0167865b2bf178f376f48917d097aff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542095016392,
+        "stop" : 1542095018827,
+        "duration" : 2435
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0167865b2bf178f376f48917d097aff8"
+  } ]
+}

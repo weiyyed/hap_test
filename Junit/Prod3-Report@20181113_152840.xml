@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuites>
+	<testsuite errors="0" errors_detail="H:0 M:0 L:0" failures="1" failures_detail="H:0 M:1 L:0" hostname="single" name="Prod3" tests="3" time="30.624752" timestamp="2018-11-13T15:28:40.379344">
+		<testcase classname="login" name="登录" priority="H" time="4.640265"/>
+		<testcase classname="sy_001" name="部门新增" priority="M" time="20.756187">
+			<failure message="step-8|CHECK|通用-提示#保存成功: Message: 
+" type="Fail"/>
+		</testcase>
+		<testcase classname="sql_001" name="sql执行示例" priority="M" time="2.511144"/>
+	</testsuite>
+</testsuites>

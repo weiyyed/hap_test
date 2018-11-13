@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "step-1|CLICK|通用-输入框#字段: Message:  ",
+      "children" : [ {
+        "name" : "",
+        "uid" : "1121f9d326cb0f71",
+        "parentUid" : "714f69981677fc9157036d89b427b4b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1542093731835,
+          "stop" : 1542093741200,
+          "duration" : 9365
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "714f69981677fc9157036d89b427b4b7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

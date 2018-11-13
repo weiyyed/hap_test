@@ -1,0 +1,79 @@
+{
+  "Prod3:sy_001#部门新增" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b76c94027c3b6f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542095016392,
+        "stop" : 1542095028850,
+        "duration" : 12458
+      }
+    } ]
+  },
+  "Prod3:text_input#" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1121f9d326cb0f71",
+      "status" : "failed",
+      "statusDetails" : "step-1|CLICK|通用-输入框#字段: Message:  ",
+      "time" : {
+        "start" : 1542093731835,
+        "stop" : 1542093741200,
+        "duration" : 9365
+      }
+    } ]
+  },
+  "Prod3:sql_001#sql执行示例" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "140625801f7155f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542095016392,
+        "stop" : 1542095018827,
+        "duration" : 2435
+      }
+    } ]
+  },
+  "Prod3:login#登录" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36239417d1c115f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1542095016392,
+        "stop" : 1542095020403,
+        "duration" : 4011
+      }
+    } ]
+  }
+}

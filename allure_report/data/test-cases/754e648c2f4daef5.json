@@ -1,0 +1,40 @@
+{
+  "uid" : "754e648c2f4daef5",
+  "name" : "登录",
+  "historyId" : "Prod3:login#登录",
+  "time" : {
+    "start" : 1542093830212,
+    "stop" : 1542093834376,
+    "duration" : 4164
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Prod3"
+  }, {
+    "name" : "host",
+    "value" : "single"
+  }, {
+    "name" : "testClass",
+    "value" : "login"
+  }, {
+    "name" : "package",
+    "value" : "login"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "754e648c2f4daef5.json",
+  "parameterValues" : [ ]
+}
