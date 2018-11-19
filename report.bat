@@ -1,1 +1,1 @@
-call allure generate Junit -o allure_report --clean | allure open allure_report -p 28788
+call allure generate junit -o allure-report --clean | allure open allure-report -p 28788

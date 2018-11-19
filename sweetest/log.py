@@ -2,7 +2,7 @@ import logging
 import datetime
 from os import path
 import sys
-
+import os
 
 def today():
     now = datetime.datetime.now()
@@ -17,6 +17,8 @@ formatter = logging.Formatter(
     '%(asctime)s [%(levelname)s] %(filename)s line:%(lineno)d: %(message)s')
 
 # 文件日志
+if not path.exists('log'):
+    os.mkdir('log')
 log_file = path.join('log', '%s.log' % today())
 file_handler = logging.FileHandler(filename=log_file, encoding="utf-8")
 file_handler.setFormatter(formatter)  # 可以通过setFormatter指定输出格式

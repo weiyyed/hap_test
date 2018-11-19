@@ -1,5 +1,6 @@
 
 from os import path
+import os
 import time
 import sys
 import json
@@ -35,12 +36,15 @@ class Autotest:
             'testcase', file_name + '-' + _testcase + '.xlsx')
         self.elements_file = path.join(
             'element', g.project_name + '-' + _elements + '.xlsx')
+        if not path.exists('junit'):
+            os.mkdir('junit')
         self.report_xml = path.join(
             'junit', file_name + '-' + _report + g.start_time + '.xml')
 
         self.testcase_workbook = Excel(self.testcase_file, 'r')
         self.sheet_names = self.testcase_workbook.get_sheet(sheet_name)
-
+        if not path.exists('report'):
+            os.mkdir('report')
         self.report_workbook = Excel(
             path.join('report', file_name + '-' + _report + g.start_time + '.xlsx'), 'w')
 

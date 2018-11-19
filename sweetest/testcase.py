@@ -1,5 +1,6 @@
 from time import sleep
 from os import path
+import os
 from sweetest.log import logger
 from sweetest.globals import g
 from sweetest.elements import e
@@ -163,6 +164,8 @@ class TestCase:
                     file_name = g.project_name + '-' + g.sheet_name + g.start_time + \
                         '#' + self.testcase['id'] + \
                         '-' + str(step['no']) + '.png'
+                    if path.exists('snapshot'):
+                        os.mkdir('snapshot')
                     snapshot_file = path.join('snapshot', file_name)
 
                     if g.platform.lower() in ('desktop',) and step['keyword'] in web_keywords:

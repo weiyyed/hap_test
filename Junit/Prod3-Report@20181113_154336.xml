@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<testsuites>
-	<testsuite errors="0" errors_detail="H:0 M:0 L:0" failures="0" failures_detail="H:0 M:0 L:0" hostname="single" name="Prod3" tests="3" time="21.589235" timestamp="2018-11-13T15:43:36.392593">
-		<testcase classname="login" name="登录" priority="H" time="4.01123"/>
-		<testcase classname="sy_001" name="部门新增" priority="M" time="12.458713"/>
-		<testcase classname="sql_001" name="sql执行示例" priority="M" time="2.435139"/>
-	</testsuite>
-</testsuites>
