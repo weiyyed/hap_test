@@ -56,7 +56,8 @@ def open(step):
             g.set_driver()
             w.init()
         g.driver.get(value)
-        w.open(step)
+        if step['data'].get('记录窗口','') != '否':
+            w.open(step)
     sleep(0.5)
 
 
