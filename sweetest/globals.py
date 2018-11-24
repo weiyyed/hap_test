@@ -49,11 +49,11 @@ class Global:
             # 页面刷新超时时间
             self.driver.set_page_load_timeout(page_flash_timeout)  # seconds
 
-        if self.platform.lower() == 'ios':
+        elif self.platform.lower() == 'ios':
             from appium import webdriver as appdriver
             self.driver = appdriver.Remote(self.server_url, self.desired_caps)
 
-        if self.platform.lower() == 'android':
+        elif self.platform.lower() == 'android':
             from appium import webdriver as appdriver
             self.driver = appdriver.Remote(self.server_url, self.desired_caps)
 
