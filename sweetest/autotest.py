@@ -24,6 +24,11 @@ class Autotest:
 
         if desired_caps:
             self.desired_caps = desired_caps
+            desired_caps_init={
+                "noReset": True,
+                "unicodeKeyboard": True,
+            }
+            self.desired_caps.update(desired_caps_init)
         else:
             self.desired_caps = {
                 'platformName': 'Desktop', 'browserName': 'Chrome'}

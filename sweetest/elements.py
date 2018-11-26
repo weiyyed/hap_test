@@ -34,6 +34,7 @@ class Elements:
         self.elements = elements_format(data2dict(d.read('elements')))
 
     def have(self, page, element):
+        '''返回2个值，frame和元素别名（页面-元素）'''
         ele = element.split('#')
 
         if len(ele) >= 2:

@@ -9,7 +9,7 @@ from sweetest.locator import locating_elements, locating_data, locating_element
 from sweetest.keywords import web, common, mobile, http
 from sweetest.config import web_keywords, common_keywords, mobile_keywords, http_keywords
 from sweetest.utility import replace_dict, replace
-
+from selenium.common.exceptions import TimeoutException
 
 def elements_format(page, element):
     if not page:
@@ -124,8 +124,17 @@ class TestCase:
                                     repr(w.current_context))
 
                     # 根据关键字调用关键字实现
-                    getattr(mobile, step['keyword'].lower())(step)
-
+                    i = 0
+                    while True:
+                        try:
+                            getattr(mobile, step['keyword'].lower())(step)
+                            break
+                        except TimeoutException as e:
+                            mobile.page_turn()
+                            i = i + 1
+                            if i>2:
+                                raise e
+                                return
                 elif step['keyword'] in http_keywords:
                     # 根据关键字调用关键字实现
                     getattr(http, step['keyword'].lower())(step)
@@ -164,8 +173,8 @@ class TestCase:
                     file_name = g.project_name + '-' + g.sheet_name + g.start_time + \
                         '#' + self.testcase['id'] + \
                         '-' + str(step['no']) + '.png'
-                    if path.exists('snapshot'):
-                        os.mkdir('snapshot')
+                    # if path.exists('snapshot'):
+                    #     os.mkdir('snapshot')
                     snapshot_file = path.join('snapshot', file_name)
 
                     if g.platform.lower() in ('desktop',) and step['keyword'] in web_keywords:
