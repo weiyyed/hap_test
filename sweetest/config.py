@@ -88,7 +88,9 @@ mobile_keywords = {
     '隐藏键盘': 'HIDE_KEYBOARD',  # iOS 专用
     'HIDE_KEYBOARD': 'HIDE_KEYBOARD',
     '命名标签页': 'TAB_NAME',
-    'TAB_NAME': 'TAB_NAME'
+    'TAB_NAME': 'TAB_NAME',
+    '重置':'RESET',
+    'RESET': 'RESET'
 }
 
 all_keywords = {}

@@ -449,4 +449,7 @@ def tab_name(step):
         raise Exception('Tab Name Fail: the element:%s in all tab is not found' %element)
 
 def page_turn():
+    #向下翻页
     g.driver.swipe(g.width / 2, g.height * 0.8, g.width / 2, g.height * 0.2)
+def reset(step):
+    g.set_driver()

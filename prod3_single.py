@@ -6,7 +6,7 @@ import sys
 project_name = 'Prod3'
 
 # 单用例调试或挑用例执行
-sheet_name = ['single']
+sheet_name = ['single-m']
 
 # 项目所有用例执行，*模糊匹配
 #sheet_name = 'hap*'
@@ -15,8 +15,15 @@ sheet_name = ['single']
 # Chrome
 desired_caps = {'platformName': 'Desktop', 'browserName': 'Chrome'}
 server_url = ''
-
-
+# android
+desired_caps = {
+        "deviceName": "weiyongyou",
+        "platformName": "android",
+        "Android": "7.0",
+        "appActivity": "com.hayden.hap.fv.login.ui.SplashActivity",
+        "appPackage": "com.hayden.hap.fv",
+                }
+server_url = 'http://127.0.0.1:4723/wd/hub'
 # 初始化自动化实例
 sweet = Autotest(project_name, sheet_name, desired_caps, server_url)
 
