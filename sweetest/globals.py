@@ -61,6 +61,7 @@ class Global:
             self.width = self.driver.get_window_size()['width']
             self.height = self.driver.get_window_size()['height']
 
+
     def close(self):
         self.driver.close()
 

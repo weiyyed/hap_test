@@ -9,7 +9,7 @@ from sweetest.locator import locating_elements, locating_data, locating_element
 from sweetest.keywords import web, common, mobile, http
 from sweetest.config import web_keywords, common_keywords, mobile_keywords, http_keywords
 from sweetest.utility import replace_dict, replace
-from selenium.common.exceptions import TimeoutException
+
 
 def elements_format(page, element):
     if not page:
@@ -124,17 +124,7 @@ class TestCase:
                                     repr(w.current_context))
 
                     # 根据关键字调用关键字实现
-                    i = 0
-                    while True:
-                        try:
-                            getattr(mobile, step['keyword'].lower())(step)
-                            break
-                        except TimeoutException as e:
-                            mobile.page_turn()
-                            i = i + 1
-                            if i>2:
-                                raise e
-                                return
+                    getattr(mobile, step['keyword'].lower())(step)
                 elif step['keyword'] in http_keywords:
                     # 根据关键字调用关键字实现
                     getattr(http, step['keyword'].lower())(step)
