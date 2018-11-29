@@ -127,8 +127,8 @@ class Windows:
     def switch_context(self, context):
         if context.strip() == '':
             context = 'NATIVE_APP'
-        logger.info('--- ALL   Contexts:%s' % g.driver.contexts)
-        logger.info('--- Input  Context:%s' % repr(context))
+        logger.debug('--- ALL   Contexts:%s' % g.driver.contexts)
+        logger.debug('--- Input  Context:%s' % repr(context))
         if context != self.current_context:
             if context == '':
                 context = None

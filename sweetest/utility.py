@@ -187,7 +187,7 @@ def write_csv(csv_file, data, encoding=None):
         writer = csv.writer(f)
         writer.writerows(data)
 
-#获取excel中的数据
+#获取data中的数据
 def get_record(data_file):
     encoding = None
     try:
@@ -224,6 +224,16 @@ def get_record(data_file):
                 break
     return record
 
+def get_all_record(data_file):
+    # 获取globle-data中的数据
+    with open(data_file,encoding='utf-8') as f:
+        data = f.readlines()
+    record = {}
+    for d in data:
+        if '=' in d:
+            k,v=d.split('=')
+            record[k.strip()]=v.strip()
+    return  record
 
 def str2int(s):
     s = s.replace(',', '').split('.', 1)

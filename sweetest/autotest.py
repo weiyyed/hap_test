@@ -11,7 +11,7 @@ from sweetest.globals import g
 from sweetest.windows import w
 from sweetest.testsuite import TestSuite
 from sweetest.testcase import TestCase
-from sweetest.utility import Excel, get_record
+from sweetest.utility import Excel, get_record,get_all_record
 from sweetest.log import logger
 from sweetest.report import Report
 from sweetest.config import _testcase, _elements, _report
@@ -24,6 +24,12 @@ class Autotest:
 
         if desired_caps:
             self.desired_caps = desired_caps
+            desired_caps_init={
+                "noReset": True,
+                "unicodeKeyboard": True,
+                "newCommandTimeout": "300",
+            }
+            self.desired_caps.update(desired_caps_init)
         else:
             self.desired_caps = {
                 'platformName': 'Desktop', 'browserName': 'Chrome'}
@@ -111,6 +117,10 @@ class Autotest:
                 'data', g.project_name + '-' + sheet_name + '.csv')
             if path.exists(data_file):
                 g.var = get_record(data_file)
+            data_file = path.join(
+                'data', g.project_name + '-' + sheet_name + '-globle.txt')
+            if path.exists(data_file):
+                g.var.update(get_all_record(data_file))
             w.init()
         except:
             logger.exception('*** Init global object fail ***')

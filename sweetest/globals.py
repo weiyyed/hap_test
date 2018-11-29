@@ -22,6 +22,8 @@ class Global:
         self.baseurl = {}
         self.driver = ''
         self.action = {}
+        self.width=''
+        self.height=''
 #启动
     def set_driver(self):
         if self.platform.lower() == 'desktop':
@@ -56,6 +58,8 @@ class Global:
         elif self.platform.lower() == 'android':
             from appium import webdriver as appdriver
             self.driver = appdriver.Remote(self.server_url, self.desired_caps)
+            self.width = self.driver.get_window_size()['width']
+            self.height = self.driver.get_window_size()['height']
 
 
     def close(self):

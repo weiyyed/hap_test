@@ -125,7 +125,6 @@ class TestCase:
 
                     # 根据关键字调用关键字实现
                     getattr(mobile, step['keyword'].lower())(step)
-
                 elif step['keyword'] in http_keywords:
                     # 根据关键字调用关键字实现
                     getattr(http, step['keyword'].lower())(step)
@@ -164,8 +163,8 @@ class TestCase:
                     file_name = g.project_name + '-' + g.sheet_name + g.start_time + \
                         '#' + self.testcase['id'] + \
                         '-' + str(step['no']) + '.png'
-                    if path.exists('snapshot'):
-                        os.mkdir('snapshot')
+                    # if path.exists('snapshot'):
+                    #     os.mkdir('snapshot')
                     snapshot_file = path.join('snapshot', file_name)
 
                     if g.platform.lower() in ('desktop',) and step['keyword'] in web_keywords:

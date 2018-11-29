@@ -6,9 +6,31 @@ from sweetest.globals import g
 from sweetest.windows import w
 from sweetest.log import logger
 from sweetest.config import element_wait_timeout
-
+from selenium.common.exceptions import TimeoutException
 
 def locating_element(element, action=''):
+    #移动端翻页找元素
+    if g.platform.lower() == 'android':
+        i = 0
+        while True:
+            try:
+                return _locating_element(element,element_wait_timeout-2)
+            except TimeoutException as e:
+                # page=g.driver.page_source
+                # num=len(g.driver.find_elements_by_class_name('android.widget.FrameLayout'))
+                g.driver.swipe(g.width / 2, g.height * 0.8, g.width / 2, g.height * 0.2)
+                i = i + 1
+                # or len(g.driver.find_elements_by_class_name('android.widget.FrameLayout')) == num
+                if i >= 3 :
+                    raise e
+                    # return
+    else:
+        return _locating_element(element,element_wait_timeout)
+
+
+
+
+def _locating_element(element,waittime,action='',):
     el_location = None
     try:
         el, value = e.get(element)
@@ -17,7 +39,7 @@ def locating_element(element, action=''):
             'Locating the element:%s is Failure, no element in define' % element)
         raise Exception('Locating the element:%s is Failure, no element in define' % element)
 
-    wait = WebDriverWait(g.driver, element_wait_timeout)
+    wait = WebDriverWait(g.driver, waittime)
 
     if el['by'].lower() in ('title', 'url', 'current_url'):
         return None
@@ -25,6 +47,7 @@ def locating_element(element, action=''):
         el_location = wait.until(EC.element_to_be_clickable(
             (getattr(By, el['by'].upper()), value)))
     else:
+        logger.debug('locating the element %s'%value)
         el_location = wait.until(EC.presence_of_element_located(
             (getattr(By, el['by'].upper()), value)))
 
