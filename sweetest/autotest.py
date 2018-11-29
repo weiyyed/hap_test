@@ -40,11 +40,13 @@ class Autotest:
             os.mkdir('junit')
         self.report_xml = path.join(
             'junit', file_name + '-' + _report + g.start_time + '.xml')
-
+        #打开excel
         self.testcase_workbook = Excel(self.testcase_file, 'r')
+        #获取列表
         self.sheet_names = self.testcase_workbook.get_sheet(sheet_name)
         if not path.exists('report'):
             os.mkdir('report')
+            #写方式打开report-excel
         self.report_workbook = Excel(
             path.join('report', file_name + '-' + _report + g.start_time + '.xlsx'), 'w')
 
