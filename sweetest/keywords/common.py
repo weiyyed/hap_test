@@ -4,7 +4,7 @@ from sweetest.elements import e
 from sweetest.log import logger
 from sweetest.parse import data_format
 from sweetest.database import DB
-from sweetest.utility import replace_dict
+from sweetest.utility import replace_dict,replace
 
 
 def execute(step):
@@ -22,7 +22,10 @@ def execute(step):
     # 执行赋值操作
     data = step['data']
     for k, v in data.items():
-        g.var[k] = v
+        if '|' in v:
+            g.var[k]=v.split('|')
+        else:
+            g.var[k] = v
 
     from sweetest.testcase import TestCase
     element = step['element']
@@ -33,45 +36,62 @@ def execute(step):
     flag = True
     if element[-1] == '*':
        flag = False
-
+    date_loop=False #按照数据循环执行用例片段
     if len(_element) >= 2:
         element = _element[0]
-        times = int(_element[1])
-
+        try:
+            times = int(_element[1])
+        except ValueError:
+            newdata_dic=step['data']
+            list_key=''
+            for k,v in newdata_dic.items():
+                v_li=v.split('|')
+                n=len(v_li)
+                if n>0:
+                    times=n
+                    date_loop=True
+                    newdata_dic[k]=v_li
+                    list_key=k
+                    break
     # 初始化测试片段执行结果
     result = 'Pass'
     steps = []
-    if element != '变量赋值':
-        for t in range(times):
-            if t > 0:
-                _data = data_format(str(step['_data']))
-                replace_dict(_data)
-                for k, v in _data.items():
-                    g.var[k] = v
-            testcase = deepcopy(g.snippet[element])
-            tc = TestCase(testcase)
-            tc.run()
-            for s in testcase['steps']:
-                s['no'] = str(step['no']) + '*' + str(t+1) + '-' + str(s['no'])
-            steps += testcase['steps']
-            # 用例片段执行失败时
-            if testcase['result'] != 'Pass':
-                result = testcase['result']
-                # 循环退出条件为失败，则直接返回，返回结果是 Pass
-                if condition == 'Fail':
-                    return 'Pass', testcase['steps']
-                # 如果没有结束条件，且失败直接退出标志位真，则返回结果
-                if not condition and flag:
-                    return result, steps
-            # 用例片段执行成功时
-            else:
-                # 如果循环退出条件是成功，则直接返回，返回结果是 Pass
-                if condition == 'Pass':
-                    return 'Pass', testcase['steps']
-        # 执行结束，还没有触发循环退出条件，则返回结果为 Fail
-        if condition:
-            return 'Fail', testcase['steps']
-        return result, steps
+# if element != '变量赋值':
+    for t in range(times):
+        if t > 0:
+            _data = data_format(str(step['_data']))
+            replace_dict(_data)
+            for k, v in _data.items():
+                g.var[k] = v
+        testcase = deepcopy(g.snippet[element])
+        # if date_loop:
+        #     for step in testcase['steps']
+        #         step['element'] = replace(step['element'])
+            # testcase['step']['data']=newdata_dic
+            # testcase['step']['data'][list_key]=newdata_dic[list_key][t]
+        tc = TestCase(testcase)
+        tc.run()
+        for s in testcase['steps']:
+            s['no'] = str(step['no']) + '*' + str(t+1) + '-' + str(s['no'])
+        steps += testcase['steps']
+        # 用例片段执行失败时
+        if testcase['result'] != 'Pass':
+            result = testcase['result']
+            # 循环退出条件为失败，则直接返回，返回结果是 Pass
+            if condition == 'Fail':
+                return 'Pass', testcase['steps']
+            # 如果没有结束条件，且失败直接退出标志位真，则返回结果
+            if not condition and flag:
+                return result, steps
+        # 用例片段执行成功时
+        else:
+            # 如果循环退出条件是成功，则直接返回，返回结果是 Pass
+            if condition == 'Pass':
+                return 'Pass', testcase['steps']
+    # 执行结束，还没有触发循环退出条件，则返回结果为 Fail
+    if condition:
+        return 'Fail', testcase['steps']
+    return result, steps
 
 
 def sql(step):

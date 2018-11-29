@@ -28,7 +28,7 @@ server_url = 'http://127.0.0.1:4723/wd/hub'
 sweet = Autotest(project_name, sheet_name, desired_caps, server_url)
 
 # 按条件执行,支持筛选的属性有：'id', 'title', 'designer', 'priority'
-# sweet.fliter(priority='H')
+sweet.fliter(priority='H')
 
 # 执行
 sweet.plan()

@@ -47,6 +47,7 @@ def _locating_element(element,waittime,action='',):
         el_location = wait.until(EC.element_to_be_clickable(
             (getattr(By, el['by'].upper()), value)))
     else:
+        logger.debug('locating the element %s'%value)
         el_location = wait.until(EC.presence_of_element_located(
             (getattr(By, el['by'].upper()), value)))
 
