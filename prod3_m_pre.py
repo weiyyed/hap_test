@@ -19,6 +19,7 @@ desired_caps = {
         "Android": "7.0",
         "appActivity": "com.hayden.hap.fv.login.ui.SplashActivity",
         "appPackage": "com.hayden.hap.fv",
+        # "automationName": "uiautomator2"
                 }
 server_url = 'http://127.0.0.1:4723/wd/hub'
 
@@ -27,7 +28,7 @@ server_url = 'http://127.0.0.1:4723/wd/hub'
 sweet = Autotest(project_name, sheet_name, desired_caps, server_url)
 
 # 按条件执行,支持筛选的属性有：'id', 'title', 'designer', 'priority'
-sweet.fliter(id=['phd_m_001'])
+sweet.fliter(id=['phd_m_0011','phd_m_002','phd_m_003'])
 
 # 执行
 sweet.plan()

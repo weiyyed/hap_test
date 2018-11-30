@@ -27,7 +27,7 @@ class Autotest:
             desired_caps_init={
                 "noReset": True,
                 "unicodeKeyboard": True,
-                "newCommandTimeout": "300",
+                "newCommandTimeout": "600",
             }
             self.desired_caps.update(desired_caps_init)
         else:

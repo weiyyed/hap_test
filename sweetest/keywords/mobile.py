@@ -143,8 +143,8 @@ def set_value(step):
             pass
         else:
             element_location.clear()
-        element_location.set_value(data['text'])
-
+        # element_location.set_value(data['text'])
+        element_location.set_text(keys=data['text'])
 
 def click(step):
     element = step['element']

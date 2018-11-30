@@ -18,7 +18,7 @@ def elements_format(page, element):
     if not element:
         return page, '', element
 
-    if page in ('SNIPPET', '用例片段') or element in ('变量赋值',):
+    if page in ('SNIPPET', '用例片段'): # or element in ('变量赋值',):
         return page, '', element
 
     elements = element.split('|')
@@ -53,7 +53,7 @@ class TestCase:
         self.snippet_steps = {}
 
     def run(self):
-        logger.info('Run the TestCase: %s|%s' %
+        logger.info('---------- Run the TestCase: %s | %s -------------' %
                     (self.testcase['id'], self.testcase['title']))
         self.testcase['result'] = 'Pass'
         self.testcase['report'] = ''
@@ -74,14 +74,14 @@ class TestCase:
             if  cur_no < last_no:
                 continue
             last_no=cur_no
-            logger.info('Run the Step: %s|%s|%s' %
-                        (step['no'], step['keyword'], step['element']))
+            logger.info('Run the Step: %s - %s | %s | %s' %
+                        (self.testcase['id'],step['no'], step['keyword'], step['element']))
 
             step['page'], step['custom'], step['element'] = elements_format(
                 step['page'], step['element'])
             try:
                 # 变量替换
-                replace_dict(step['data'])
+                replace_dict(step['data'],keyword=step['keyword'])
                 replace_dict(step['expected'])
 
                 if isinstance(step['element'], str):
@@ -148,8 +148,8 @@ class TestCase:
                 else:
                     # 根据关键字调用关键字实现
                     getattr(common, step['keyword'].lower())(step)
-                logger.info('Run the Step: %s|%s|%s is Pass' %
-                            (step['no'], step['keyword'], step['element']))
+                # logger.info('Run the Step: %s|%s|%s is Pass' %
+                #             (step['no'], step['keyword'], step['element']))
                 step['score'] = 'OK'
 
                 # if 语句结果赋值

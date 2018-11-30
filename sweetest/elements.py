@@ -75,7 +75,11 @@ class Elements:
             return _el, element.split('#', 1)[-1]
         value = el['value']
         for v in _v:
-            value = value.replace('#', v, 1)
+            if '|' in value:
+                value = value.replace('#', v)
+                break
+            else:
+                value = value.replace('#', v, 1)
         return el, value
 
 

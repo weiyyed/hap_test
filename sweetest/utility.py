@@ -106,10 +106,10 @@ def data2dict(data):
     return list_dict_data
 
 
-def replace_dict(data):
+def replace_dict(data,keyword=''):
     # 变量替换
     for key in data:
-        data[key] = replace(data[key])
+        data[key] = replace(data[key],keyword=keyword)
 
 
 def replace_list(data):
@@ -118,7 +118,7 @@ def replace_list(data):
         data[i] = replace(data[i])
 
 
-def replace(data):
+def replace(data,keyword=''):
     # 正则匹配出 data 中所有 <> 中的变量，返回列表
     keys = re.findall(r'<(.*?)>', data)
     for i,k in enumerate(keys):
@@ -133,13 +133,18 @@ def replace(data):
 
             if v in g.var:
                 # 如果在 g.var 中是 list，则 pop 第一个值
-                if isinstance(g.var[v], list):
-                    values[j] = g.var[k].pop(0)
-                    if s:
-                        values[j] = eval('values[j]'+s)
-                    # 再判断一下此 list 是否只有一个值了，如果是，则从 list 变为该值
-                    if len(g.var[v]) == 1:
-                        g.var[v] = g.var[v][0]
+                if isinstance(g.var[v], list) :
+                    if keyword!='EXECUTE':
+                        values[j] = g.var[k].pop(0)
+                        if s:
+                            values[j] = eval('values[j]'+s)
+                        # 再判断一下此 list 是否只有一个值了，如果是，则从 list 变为该值
+                        if len(g.var[v]) == 1:
+                            g.var[v] = g.var[v][0]
+                    else:
+                        values[j] = g.var[k]
+                        if s:
+                            values[j] = eval('values[j]' + s)
                 # 如果在 g.var 中是值，则直接赋值
                 else:
                     values[j] = g.var[v]

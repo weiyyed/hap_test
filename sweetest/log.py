@@ -33,4 +33,4 @@ logger.addHandler(console_handler)
 
 # 指定日志的最低输出级别，默认为WARN级别
 # DEBUG，INFO，WARNING，ERROR，CRITICAL
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)

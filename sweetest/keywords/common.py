@@ -36,22 +36,18 @@ def execute(step):
     flag = True
     if element[-1] == '*':
        flag = False
-    date_loop=False #按照数据循环执行用例片段
+    # date_loop=False #按照数据循环执行用例片段
     if len(_element) >= 2:
         element = _element[0]
         try:
             times = int(_element[1])
         except ValueError:
+            # 处理用例片段按值循环
             newdata_dic=step['data']
-            list_key=''
             for k,v in newdata_dic.items():
-                v_li=v.split('|')
-                n=len(v_li)
-                if n>0:
+                n=len(v) if isinstance(v,list) else 0
+                if n>times:
                     times=n
-                    date_loop=True
-                    newdata_dic[k]=v_li
-                    list_key=k
                     break
     # 初始化测试片段执行结果
     result = 'Pass'
