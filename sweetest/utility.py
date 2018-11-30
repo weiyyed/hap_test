@@ -17,7 +17,7 @@ class Excel:
         else:
             raise Exception(
                 'Error: init Excel class with error mode: %s' % mode)
-
+# 获取包含此名字的，sheet-name的列表，返回list
     def get_sheet(self, sheet_name):
         names = []
         if isinstance(sheet_name, str):
@@ -37,7 +37,7 @@ class Excel:
     def read(self, sheet_name):
         '''
         sheet_name:Excel 中标签页名称
-        return：[[],[]……]
+        return：[[],[]……]excle中数据的列表
         '''
         sheet = self.workbook.sheet_by_name(sheet_name)
         nrows = sheet.nrows

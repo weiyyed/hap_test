@@ -8,6 +8,8 @@ class Report():
         self.testsuites = []
 
     def create_suite(self, name, hostname="localhost"):
+        # 返回TestSuite实例
+        ''' 返回TestSuite实例'''
         suite = TestSuite(name, hostname)
         self.testsuites.append(suite)
         return suite
